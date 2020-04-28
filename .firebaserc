@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "travel-trailer-gypsies-9c69a": {
+      "hosting": {
+        "travel-trailer-gypsies-firebase": [
+          "travel-trailer-gypsies-9c69a"
+        ]
+      }
+    }
+  }
+}
