@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg bg-white fixed-top navbar-transparent" color-on-scroll="500">
     <div class="container">
         <div class="navbar-translate">
-            <a class="navbar-brand" [routerLink]="['/presentation']" placement="bottom" ngbTooltip="Designed by Invision. Coded by Creative Tim">
-                Now Ui Kit Pro
+            <a class="navbar-brand" [routerLink]="['/landing']" placement="bottom" ngbTooltip="Take me Home!">
+                Home
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
                 <span class="navbar-toggler-bar bar1"></span>
@@ -10,15 +10,21 @@
                 <span class="navbar-toggler-bar bar3"></span>
             </button>
         </div>
-        <div class="collapse navbar-collapse" data-nav-image="assets/img/blurred-image-1.jpg" data-color="orange">
+        <div class="collapse navbar-collapse" data-nav-image="assets/img/blurred-image-1.jpg" data-color="blue">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/components']">
+                    <a class="nav-link" [routerLink]="['/blogposts']">
                       <i class="now-ui-icons design_app"></i>
-                      <p>Components</p>
+                      <p>Blogposts</p>
                     </a>
                 </li>
-                <a ngbDropdown class="nav-item dropdown">
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/login']">
+                      <i class="now-ui-icons design_app"></i>
+                      <p>Login</p>
+                    </a>
+                </li>
+                <!-- <a ngbDropdown class="nav-item dropdown">
                     <div class="nav-link dropdown-toggle" ngbDropdownToggle>
                       <i class="now-ui-icons files_paper" aria-hidden="true"></i>
                       <p>Sections</p>
@@ -52,12 +58,12 @@
                         <a class="dropdown-item" [routerLink]="['/examples/profile']"><i class="now-ui-icons users_single-02"></i> Profile Page</a>
                         <a class="dropdown-item" [routerLink]="['/examples/register']"><i class="now-ui-icons tech_mobile"></i> Signup Page</a>
                     </div>
-                </a>
-                <li class="nav-item">
+                </a> -->
+                <!-- <li class="nav-item">
                     <a class="nav-link btn btn-primary" href="https://www.creative-tim.com/product/travel-trailer-gypsies-firebase">
                        <p>Buy now</p>
                     </a>
-                </li>
+                </li> -->
             </ul>
         </div>
     </div>

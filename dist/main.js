@@ -13,6 +13,32 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/blogpost/blogpost.component.html":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/blogpost/blogpost.component.html ***!
+  \****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n<div class=\"wrapper\">\n  <div class=\"page-header page-header-small\">\n      <div class=\"page-header-image rellax-header\" data-rellax-speed=\"-8\" style=\"background-image: url({{blog?.page_header_image_url}});\">\n      </div>\n      <div class=\"content-center\">\n          <div class=\"row\">\n              <div class=\"col-md-8 ml-auto mr-auto text-center\">\n                  <h2 class=\"title\">{{blog?.title}}</h2>\n              </div>\n          </div>\n      </div>\n  </div>\n  <div class=\"section\">\n      <!-- <div class=\"container\">\n          <div class=\"row\">\n              <div class=\"col-md-12\">\n                  <div class=\"button-container\">\n                      <a href=\"#pablo\" class=\"btn btn-primary btn-round btn-lg\">\n                          <i class=\"now-ui-icons text_align-left\"></i> Read Article\n                      </a>\n                      <a href=\"#pablo\" class=\"btn btn-icon btn-lg btn-twitter btn-round\">\n                          <i class=\"fa fa-twitter\"></i>\n                      </a>\n                      <a href=\"#pablo\" class=\"btn btn-icon btn-lg btn-facebook btn-round\">\n                          <i class=\"fa fa-facebook-square\"></i>\n                      </a>\n                      <a href=\"#pablo\" class=\"btn btn-icon btn-lg btn-google btn-round\">\n                          <i class=\"fa fa-google\"></i>\n                      </a>\n                  </div>\n              </div>\n          </div>\n      </div> -->\n      <div class=\"section\">\n          <div class=\"container\">\n              <div class=\"row\">\n                  <div class=\"col-md-8 ml-auto mr-auto\">\n                      <h3 class=\"title\">{{blog?.section1_title}}</h3>\n                      <p> \n                        {{blog?.section1_paragraph1}} \n                      </p>\n                      <p>\n                        {{blog?.section1_paragraph2}}\n                      </p>\n                      <p>\n                        {{blog?.section1_paragraph3}} \n                      </p>\n                      <p>\n                        {{blog?.section1_paragraph}}\n                      </p>\n                      <p class=\"blockquote blockquote-primary\">\n                        {{blog?.blockquote1_text}}\n                          <br>\n                          <br>\n                          <small>\n                            {{blog?.blockquote1_author}}\n                          </small>\n                      </p>\n                  </div>\n              </div>\n          </div>\n      </div>\n      <div class=\"section section-blog col-md-10 ml-auto mr-auto\">\n          <div class=\"container\">\n              <div class=\"section-story-overview\">\n                  <div class=\"row\">\n                      <div class=\"col-md-6\">\n                          <div class=\"image-container image-left\" style=\"background-image: url({{blog?.image_left_url}})\">\n                              <!-- First image on the left side -->\n                              <p class=\"blockquote blockquote-primary\">{{blog?.blockquote2_text}}\n                                  <br>\n                                  <br>\n                                  <small> -{{blog?.blockquote2_author}} </small>\n                              </p>\n                          </div>\n                          <!-- Second image on the left side of the article -->\n                          <div class=\"image-container image-left-bottom\" style=\"background-image: url({{blog?.image_left_bottom_url}})\">\n                          </div>\n                      </div>\n                      <div class=\"col-md-5\">\n                          <!-- First image on the right side, above the article -->\n                          <div class=\"image-container image-right\" style=\"background-image: url({{blog?.image_right_url}})\">\n                          </div>\n                          <h3 class=\"title\">{{blog?.section2_title}}</h3>\n                          <p>\n                            {{blog?.section2_paragraph1}}\n                          </p>\n                          <p>\n                            {{blog?.section2_paragraph2}}\n                          </p>\n                          <p>\n                            {{blog?.section2_paragraph3}}\n                          </p>\n                          <p>\n                            {{blog?.section2_paragraph4}}\n                          </p>\n                      </div>\n                  </div>\n              </div>\n          </div>\n      </div>\n      <div class=\"section\">\n          <div class=\"container\">\n              <div class=\"row\">\n                  <div class=\"col-md-8 ml-auto mr-auto\">\n                      <h3 class=\"title\">{{blog?.section3_title}}</h3>\n                      <p>\n                        {{blog?.section3_paragraph1}}\n                      </p>\n                      <p> \n                        {{blog?.section3_paragraph2}}\n                      </p>\n                      <p>\n                        {{blog?.section3_paragraph3}}\n                      </p>\n                      <p> \n                        {{blog?.section3_paragraph4}}\n                      </p>\n                  </div>\n              </div>\n          </div>\n      </div>\n      <div class=\"section section-blog-info\">\n          <div class=\"container\">\n              <div class=\"row\">\n                  <div class=\"col-md-8 ml-auto mr-auto\">\n                      <div class=\"row\">\n                          <div class=\"col-md-6\">\n                              <div class=\"blog-tags\">\n                                  Tags:\n                                  <span class=\"label label-primary\">Photography</span>\n                                  <span class=\"label label-primary\">Stories</span>\n                                  <span class=\"label label-primary\">Castle</span>\n                              </div>\n                          </div>\n                          <div class=\"col-md-6\">\n                              <a href=\"#pablo\" class=\"btn btn-google btn-round pull-right\">\n                                  <i class=\"fa fa-google\"></i> 232\n                              </a>\n                              <a href=\"#pablo\" class=\"btn btn-twitter btn-round pull-right\">\n                                  <i class=\"fa fa-twitter\"></i> 910\n                              </a>\n                              <a href=\"#pablo\" class=\"btn btn-facebook btn-round pull-right\">\n                                  <i class=\"fa fa-facebook-square\"></i> 872\n                              </a>\n                          </div>\n                      </div>\n                      <hr />\n                      <div class=\"card card-profile card-plain\">\n                          <div class=\"row\">\n                              <div class=\"col-md-2\">\n                                  <div class=\"card-avatar\">\n                                      <a href=\"#pablo\">\n                                          <img class=\"img img-raised\" src=\"assets/img/mike.jpg\">\n                                      </a>\n                                      <div class=\"ripple-container\"></div>\n                                  </div>\n                              </div>\n                              <div class=\"col-md-8\">\n                                  <h4 class=\"card-title\">Alec Thompson</h4>\n                                  <p class=\"description\">I've been trying to figure out the bed design for the master bedroom at our Hidden Hills compound...I like good music from Youtube.</p>\n                              </div>\n                              <div class=\"col-md-2\">\n                                  <button type=\"button\" class=\"btn btn-default pull-right btn-round\">Follow</button>\n                              </div>\n                          </div>\n                      </div>\n                  </div>\n              </div>\n          </div>\n      </div>\n      <div class=\"section section-comments\">\n          <div class=\"container\">\n              <div class=\"row\">\n                  <div class=\"col-md-8 ml-auto mr-auto\">\n                      <div class=\"media-area\">\n                          <h3 class=\"title text-center\">3 Comments</h3>\n                          <div class=\"media\">\n                              <a class=\"pull-left\" href=\"#pablo\">\n                                  <div class=\"avatar\">\n                                      <img class=\"media-object img-raised\" src=\"assets/img/james.jpg\" alt=\"...\" />\n                                  </div>\n                              </a>\n                              <div class=\"media-body\">\n                                  <h5 class=\"media-heading\">Tina Andrew\n                                      <small class=\"text-muted\">&middot; 7 minutes ago</small>\n                                  </h5>\n                                  <p>Chance too good. God level bars. I'm so proud of @LifeOfDesiigner #1 song in the country. Panda! Don't be scared of the truth because we need to restart the human foundation in truth I stand with the most humility. We are so blessed!</p>\n                                  <p>All praises and blessings to the families of people who never gave up on dreams. Don't forget, You're Awesome!</p>\n                                  <div class=\"media-footer\">\n                                      <a href=\"#pablo\" class=\"btn btn-primary btn-neutral pull-right\" placement=\"top\" ngbTooltip=\"Reply to Comment\">\n                                          <i class=\"now-ui-icons ui-1_send\"></i> Reply\n                                      </a>\n                                      <a href=\"#pablo\" class=\"btn btn-danger btn-neutral pull-right\">\n                                          <i class=\"now-ui-icons ui-2_favourite-28\"></i> 243\n                                      </a>\n                                  </div>\n                              </div>\n                          </div>\n                          <div class=\"media\">\n                              <a class=\"pull-left\" href=\"#pablo\">\n                                  <div class=\"avatar\">\n                                      <img class=\"media-object img-raised\" alt=\"Tim Picture\" src=\"assets/img/michael.jpg\">\n                                  </div>\n                              </a>\n                              <div class=\"media-body\">\n                                  <h5 class=\"media-heading\">John Camber\n                                      <small class=\"text-muted\">&middot; Yesterday</small>\n                                  </h5>\n                                  <p>Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.</p>\n                                  <p> Don't forget, You're Awesome!</p>\n                                  <div class=\"media-footer\">\n                                      <a href=\"#pablo\" class=\"btn btn-primary btn-neutral pull-right\" placement=\"top\" ngbTooltip=\"Reply to Comment\">\n                                          <i class=\"now-ui-icons ui-1_send\"></i> Reply\n                                      </a>\n                                      <a href=\"#pablo\" class=\"btn btn-danger btn-neutral pull-right\">\n                                          <i class=\"now-ui-icons ui-2_favourite-28\"></i> 25\n                                      </a>\n                                  </div>\n                                  <div class=\"media\">\n                                      <a class=\"pull-left\" href=\"#pablo\">\n                                          <div class=\"avatar\">\n                                              <img class=\"media-object img-raised\" alt=\"64x64\" src=\"assets/img/julie.jpg\">\n                                          </div>\n                                      </a>\n                                      <div class=\"media-body\">\n                                          <h5 class=\"media-heading\">Tina Andrew\n                                              <small class=\"text-muted\">· 2 Days Ago</small>\n                                          </h5>\n                                          <p>Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.</p>\n                                          <p> Don't forget, You're Awesome!</p>\n                                          <div class=\"media-footer\">\n                                              <a href=\"#pablo\" class=\"btn btn-primary btn-neutral pull-right\" placement=\"top\" ngbTooltip=\"Reply to Comment\">\n                                                  <i class=\"now-ui-icons ui-1_send\"></i> Reply\n                                              </a>\n                                              <a href=\"#pablo\" class=\"btn btn-danger btn-neutral pull-right\">\n                                                  <i class=\"now-ui-icons ui-2_favourite-28\"></i> 2\n                                              </a>\n                                          </div>\n                                      </div>\n                                  </div>\n                              </div>\n                          </div>\n                      </div>\n                      <h3 class=\"title text-center\">Post your comment</h3>\n                      <div class=\"media media-post\">\n                          <a class=\"pull-left author\" href=\"#pablo\">\n                              <div class=\"avatar\">\n                                  <img class=\"media-object img-raised\" alt=\"64x64\" src=\"assets/img/olivia.jpg\">\n                              </div>\n                          </a>\n                          <div class=\"media-body\">\n                              <textarea class=\"form-control\" placeholder=\"Write a nice reply or go home...\" rows=\"4\"></textarea>\n                              <div class=\"media-footer\">\n                                  <a href=\"#pablo\" class=\"btn btn-primary pull-right\">\n                                      <i class=\"now-ui-icons ui-1_send\"></i> Reply\n                                  </a>\n                              </div>\n                          </div>\n                      </div>\n                      <!-- end media-post -->\n                  </div>\n              </div>\n          </div>\n      </div>\n      <div class=\"section\">\n          <div class=\"container\">\n              <div class=\"col-md-12\">\n                  <h2 class=\"title text-center\">Similar Stories</h2>\n                  <br />\n                  <div class=\"blogs-1\" id=\"blogs-1\">\n                      <div class=\"row\">\n                          <div class=\"col-md-10 ml-auto mr-auto\">\n                              <div class=\"card card-plain card-blog\">\n                                  <div class=\"row\">\n                                      <div class=\"col-md-5\">\n                                          <div class=\"card-image\">\n                                              <img class=\"img img-raised rounded\" src=\"assets/img/examples/card-blog4.jpg\">\n                                          </div>\n                                      </div>\n                                      <div class=\"col-md-7\">\n                                          <h6 class=\"category text-info\">Enterprise</h6>\n                                          <h3 class=\"card-title\">\n                                              <a href=\"#pablo\">Warner Music Group buys concert discovery service Songkick</a>\n                                          </h3>\n                                          <p class=\"card-description\">\n                                              Warner Music Group announced today it’s acquiring the selected assets of the music platform Songkick, including its app for finding concerts and the company’s trademark.\n                                          </p>\n                                          <p class=\"author\">\n                                              by\n                                              <a href=\"#pablo\">\n                                                  <b>Sarah Perez</b>\n                                              </a>, 2 days ago\n                                          </p>\n                                      </div>\n                                  </div>\n                              </div>\n                              <div class=\"card card-plain card-blog\">\n                                  <div class=\"row\">\n                                      <div class=\"col-md-7\">\n                                          <h6 class=\"category text-danger\">\n                                              <i class=\"now-ui-icons now-ui-icons media-2_sound-wave\"></i> Startup\n                                          </h6>\n                                          <h3 class=\"card-title\">\n                                              <a href=\"#pablo\">Insticator raises $5.2M to help publishers</a>\n                                          </h3>\n                                          <p class=\"card-description\">\n                                              Insticator is announcing that it has raised $5.2 million in Series A funding. The startup allows online publishers to add quizzes, polls and other interactive elements...\n                                          </p>\n                                          <p class=\"author\">\n                                              by\n                                              <a href=\"#pablo\">\n                                                  <b>Anthony Ha</b>\n                                              </a>, 5 days ago\n                                          </p>\n                                      </div>\n                                      <div class=\"col-md-5\">\n                                          <div class=\"card-image\">\n                                              <img class=\"img img-raised rounded\n                                      \" src=\"assets/img/examples/card-blog6.jpg\">\n                                          </div>\n                                      </div>\n                                  </div>\n                              </div>\n                          </div>\n                      </div>\n                  </div>\n              </div>\n          </div>\n      </div>\n  </div>\n  <footer class=\"footer \" data-background-color=\"black\">\n      <div class=\"container\">\n          <nav>\n              <ul>\n                  <li>\n                      <a href=\"https://www.creative-tim.com\">\n                          Creative Tim\n                      </a>\n                  </li>\n                  <li>\n                      <a href=\"https://www.creative-tim.com/about-us\">\n                          About Us\n                      </a>\n                  </li>\n                  <li>\n                      <a href=\"http://blog.creative-tim.com\">\n                          Blog\n                      </a>\n                  </li>\n                  <li>\n                      <a href=\"https://www.creative-tim.com/license\">\n                          License\n                      </a>\n                  </li>\n              </ul>\n          </nav>\n          <div class=\"copyright\">\n              &copy; {{data | date: 'yyyy'}}, Designed by\n              <a href=\"https://www.invisionapp.com\" target=\"_blank\">Invision</a>. Coded by\n              <a href=\"https://www.creative-tim.com\" target=\"_blank\">Creative Tim</a>.\n          </div>\n      </div>\n  </footer>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/blogposts/blogposts.component.html":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/blogposts/blogposts.component.html ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"wrapper\">\n  <div class=\"page-header page-header-small\">\n    <div\n      class=\"page-header-image rellax-header\"\n      data-rellax-speed=\"-8\"\n      style=\"background-image: url(https://firebasestorage.googleapis.com/v0/b/travel-trailer-gypsies-9c69a.appspot.com/o/Rear_View.jpg?alt=media&token=55cecfd1-cffe-4295-aa7f-b9f7b73e788e);\"\n    ></div>\n    <div class=\"content-center\">\n      <div class=\"row\">\n        <div class=\"col-md-8 ml-auto mr-auto text-center\">\n          <h2 class=\"title\">\n            Adventures and Lessons Learned\n          </h2>\n          <a href=\"#button\" class=\"btn btn-primary btn-round btn-icon\">\n            <i class=\"fa fa-twitter\"></i>\n          </a>\n          <a href=\"#button\" class=\"btn btn-primary btn-round btn-icon\">\n            <i class=\"fa fa-instagram\"></i>\n          </a>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"projects-4\">\n    <div class=\"container-fluid\">\n      <div class=\"row\">\n        <div class=\"col-md-6 px-0\">\n          <div\n            class=\"card card-fashion card-background\"\n            style=\"\n              background-image: url({{items[0]?.blogposts_showcase_image_url}});\n            \"\n          >\n            <div class=\"card-body\">\n              <div class=\"card-title text-left\">\n                <h2>\n                  <a (click)=\"goToBlogPost(items[0].id)\">\n                    {{ items[0]?.title }}\n                  </a>\n                </h2>\n              </div>\n              <div class=\"card-footer text-left\">\n                <div class=\"stats\">\n                  <span>\n                    <i class=\"now-ui-icons users_circle-08\"></i>\n                    {{ items[0]?.author_name }}\n                  </span>\n                  <span>\n                    <i class=\"now-ui-icons tech_watch-time\"></i>\n                    {{ items[0]?.created_date }}\n                  </span>\n                </div>\n                <div class=\"stats-link pull-right\">\n                  <a href=\"#pablo\" class=\"footer-link\"></a>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"col-md-3 px-0\">\n          <div class=\"card card-fashion\">\n            <div class=\"card-title\">\n              <a href=\"#pablo\">\n                <h4>\n                  <a (click)=\"goToBlogPost(items[1].id)\">\n                    {{ items[1]?.title }}\n                  </a>\n                </h4>\n              </a>\n            </div>\n            <div class=\"card-body\">\n              <div class=\"card-footer\">\n                <div class=\"stats\">\n                  <span>\n                    <i class=\"now-ui-icons users_circle-08\"></i>\n                    {{ items[1]?.author_name }}\n                  </span>\n                  <span>\n                    <i class=\"now-ui-icons tech_watch-time\"></i> \n                    {{ items[1]?.created_date }}\n                  </span>\n                </div>\n                <div class=\"stats-link pull-right\">\n                  <a href=\"#pablo\"></a>&sbquo;\n                  <a href=\"#pablo\"></a>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"col-md-3 px-0\">\n          <div\n            class=\"card card-fashion card-background\"\n            style=\"background-image: url({{items[1]?.blogposts_showcase_image_url}});\"\n          ></div>\n        </div>\n      </div>\n\n      \n      <div class=\"row\">\n        <div class=\"col-md-3 px-0\">\n          <div\n            class=\"card card-fashion card-background\"\n            style=\"background-image: url({{items[2]?.blogposts_showcase_image_url}});\"\n          ></div>\n        </div>\n        <div class=\"col-md-3 px-0\">\n          <div class=\"card card-fashion arrow-left\">\n            <div class=\"card-title\">\n              <h4>\n                <a (click)=\"goToBlogPost(items[1].id)\">\n                  {{ items[2]?.title }}\n                </a>\n              </h4>\n            </div>\n            <div class=\"card-body\">\n              <div class=\"card-footer\">\n                <div class=\"stats\">\n                  <span>\n                    <i class=\"now-ui-icons users_circle-08\"></i>\n                    {{ items[2]?.author_name }}\n                  </span>\n                  <span>\n                    <i class=\"now-ui-icons tech_watch-time\"></i> \n                    {{ items[2]?.created_date }}\n                  </span>\n                </div>\n                <div class=\"stats-link pull-right\">\n                  <a href=\"#pablo\"></a>&sbquo;\n                  <a href=\"#pablo\"></a>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n        <!-- <div class=\"col-md-6 px-0\">\n          <div\n            class=\"card card-fashion card-background\"\n            style=\"background-image: url('assets/img/project13.jpg');\"\n          >\n            <div class=\"card-body\">\n              <div class=\"card-title text-left\">\n                <h2>\n                  <a href=\"#pablo\">{{ items[3]?.title }}</a>\n                </h2>\n              </div>\n              <div class=\"card-footer text-left\">\n                <div class=\"stats\">\n                  <span>\n                    <i class=\"now-ui-icons users_circle-08\"></i>Joanna Klein\n                  </span>\n                  <span>\n                    <i class=\"now-ui-icons tech_watch-time\"></i> June 2, 2017\n                  </span>\n                </div>\n                <div class=\"stats-link pull-right\">\n                  <a href=\"#pablo\" class=\"footer-link\"></a>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div> -->\n      </div>\n    </div>\n  </div>\n  <div class=\"main\">\n    <div class=\"container\">\n      <div class=\"section\">\n        <h3 class=\"title text-center\">You may also be interested in</h3>\n        <br />\n        <div class=\"row\">\n          <div class=\"col-md-4\">\n            <div class=\"card card-plain card-blog\">\n              <div class=\"card-image\">\n                <a href=\"#pablo\">\n                  <img\n                    class=\"img rounded img-raised\"\n                    src=\"assets/img/bg5.jpg\"\n                  />\n                </a>\n              </div>\n              <div class=\"card-body\">\n                <h6 class=\"category text-info\">Enterprise</h6>\n                <h4 class=\"card-title\">\n                  <a href=\"#pablo\"\n                    >Autodesk looks to future of 3D printing with Project\n                    Escher</a\n                  >\n                </h4>\n                <p class=\"card-description\">\n                  Like so many organizations these days, Autodesk is a company\n                  in transition. It was until recently a traditional boxed\n                  software company selling licenses.\n                  <a href=\"#pablo\"> Read More </a>\n                </p>\n                <div class=\"author\">\n                  <img\n                    src=\"assets/img/olivia.jpg\"\n                    alt=\"...\"\n                    class=\"avatar img-raised\"\n                  />\n                  <span>Anna Spark</span>\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class=\"col-md-4\">\n            <div class=\"card card-plain card-blog\">\n              <div class=\"card-image\">\n                <a href=\"#pablo\">\n                  <img\n                    class=\"img rounded img-raised\"\n                    src=\"assets/img/bg27.jpg\"\n                  />\n                </a>\n              </div>\n              <div class=\"card-body\">\n                <h6 class=\"category text-success\">\n                  Startups\n                </h6>\n                <h4 class=\"card-title\">\n                  <a href=\"#pablo\"\n                    >Lyft launching cross-platform service this week</a\n                  >\n                </h4>\n                <p class=\"card-description\">\n                  Like so many organizations these days, Autodesk is a company\n                  in transition. It was until recently a traditional boxed\n                  software company selling licenses.\n                  <a href=\"#pablo\"> Read More </a>\n                </p>\n                <div class=\"author\">\n                  <img\n                    src=\"assets/img/michael.jpg\"\n                    alt=\"...\"\n                    class=\"avatar img-raised\"\n                  />\n                  <span>John Black</span>\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class=\"col-md-4\">\n            <div class=\"card card-plain card-blog\">\n              <div class=\"card-image\">\n                <a href=\"#pablo\">\n                  <img\n                    class=\"img rounded img-raised\"\n                    src=\"assets/img/bg21.jpg\"\n                  />\n                </a>\n              </div>\n              <div class=\"card-body\">\n                <h6 class=\"category text-danger\">\n                  <i class=\"now-ui-icons media-2_sound-wave\"></i> Enterprise\n                </h6>\n                <h4 class=\"card-title\">\n                  <a href=\"#pablo\"\n                    >6 insights into the French Fashion landscape</a\n                  >\n                </h4>\n                <p class=\"card-description\">\n                  Like so many organizations these days, Autodesk is a company\n                  in transition. It was until recently a traditional boxed\n                  software company selling licenses.\n                  <a href=\"#pablo\"> Read More </a>\n                </p>\n                <div class=\"author\">\n                  <img\n                    src=\"assets/img/james.jpg\"\n                    alt=\"...\"\n                    class=\"avatar img-raised\"\n                  />\n                  <span>James Newman</span>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class=\"section pt-0 pb-0\">\n      <div\n        class=\"team-3 section-image\"\n        data-parallax=\"true\"\n        style=\"background-image: url('assets/img/bg26.jpg');\"\n      >\n        <div class=\"container\">\n          <div class=\"row\">\n            <div class=\"col-md-8 ml-auto mr-auto text-center\">\n              <h2 class=\"title\">Our little team.</h2>\n              <h4 class=\"description\">\n                This is the paragraph where you can write more details about\n                your product. Keep you user engaged by providing meaningful\n                information.\n              </h4>\n            </div>\n            <div class=\"col-xl-6 col-lg-7 ml-auto mr-auto\">\n              <div class=\"card card-profile\">\n                <div class=\"row\">\n                  <div class=\"col-md-5\">\n                    <div class=\"card-image\">\n                      <a href=\"#pablo\">\n                        <img class=\"img\" src=\"assets/img/olivia.jpg\" />\n                      </a>\n                    </div>\n                  </div>\n                  <div class=\"col-md-7\">\n                    <div class=\"card-body\">\n                      <h3 class=\"card-title\">Ariana Hazel</h3>\n                      <h6 class=\"category text-primary\">Fashion Designer</h6>\n                      <p class=\"card-description\">\n                        Happiness resides not in possessions, and not in gold,\n                        happiness dwells in the soul...\n                      </p>\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n            <div class=\"col-xl-6 col-lg-7 ml-auto mr-auto\">\n              <div class=\"card card-profile\">\n                <div class=\"row\">\n                  <div class=\"col-md-5\">\n                    <div class=\"card-image\">\n                      <a href=\"#pablo\">\n                        <img class=\"img\" src=\"assets/img/james.jpg\" />\n                      </a>\n                    </div>\n                  </div>\n                  <div class=\"col-md-7\">\n                    <div class=\"card-body\">\n                      <h3 class=\"card-title\">Ryan Samuel</h3>\n                      <h6 class=\"category text-primary\">Financial Examiner</h6>\n                      <p class=\"card-description\">\n                        Today you are you! That is truer than true! There is no\n                        one alive who is you-er than you!..\n                      </p>\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class=\"subscribe-line subscribe-line-white\">\n      <div class=\"container\">\n        <div class=\"row\">\n          <div class=\"col-md-6\">\n            <h4 class=\"title\">Get Tips &amp; Tricks every Week!</h4>\n            <p class=\"description\">\n              Join our newsletter and get news in your inbox every week! We hate\n              spam too, so no worries about this.\n            </p>\n          </div>\n          <div class=\"col-md-6\">\n            <div class=\"card card-plain card-form-horizontal\">\n              <div class=\"card-content\">\n                <form method=\"\" action=\"\">\n                  <div class=\"row\">\n                    <div class=\"col-sm-8\">\n                      <div\n                        class=\"input-group\"\n                        [ngClass]=\"{ 'input-group-focus': focus === true }\"\n                      >\n                        <div class=\"input-group-prepend\">\n                          <span class=\"input-group-text\"\n                            ><i class=\"now-ui-icons ui-1_email-85\"></i\n                          ></span>\n                        </div>\n                        <input\n                          type=\"email\"\n                          class=\"form-control\"\n                          placeholder=\"Your Email...\"\n                          (focus)=\"focus = true\"\n                          (blur)=\"focus = false\"\n                        />\n                      </div>\n                    </div>\n                    <div class=\"col-sm-4\">\n                      <button\n                        type=\"button\"\n                        class=\"btn btn-primary btn-round btn-block\"\n                      >\n                        Subscribe\n                      </button>\n                    </div>\n                  </div>\n                </form>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <footer class=\"footer\" data-background-color=\"black\">\n    <div class=\"container\">\n      <div class=\"content\">\n        <div class=\"row\">\n          <div class=\"col-md-2\">\n            <h5>About Us</h5>\n            <ul class=\"links-vertical\">\n              <li>\n                <a href=\"#pablo\" class=\"text-muted\">\n                  Blog\n                </a>\n              </li>\n              <li>\n                <a href=\"#pablo\" class=\"text-muted\">\n                  About Us\n                </a>\n              </li>\n              <li>\n                <a href=\"#pablo\" class=\"text-muted\">\n                  Presentation\n                </a>\n              </li>\n              <li>\n                <a href=\"#pablo\" class=\"text-muted\">\n                  Contact Us\n                </a>\n              </li>\n            </ul>\n          </div>\n          <div class=\"col-md-2\">\n            <h5>Market</h5>\n            <ul class=\"links-vertical\">\n              <li>\n                <a href=\"#pablo\" class=\"text-muted\">\n                  Sales FAQ\n                </a>\n              </li>\n              <li>\n                <a href=\"#pablo\" class=\"text-muted\">\n                  How to Register\n                </a>\n              </li>\n              <li>\n                <a href=\"#pablo\" class=\"text-muted\">\n                  Sell Goods\n                </a>\n              </li>\n              <li>\n                <a href=\"#pablo\" class=\"text-muted\">\n                  Receive Payment\n                </a>\n              </li>\n              <li>\n                <a href=\"#pablo\" class=\"text-muted\">\n                  Transactions Issues\n                </a>\n              </li>\n              <li>\n                <a href=\"#pablo\" class=\"text-muted\">\n                  Affiliates Program\n                </a>\n              </li>\n            </ul>\n          </div>\n          <div class=\"col-md-4\">\n            <h5>Social Feed</h5>\n            <div class=\"social-feed\">\n              <div class=\"feed-line\">\n                <i class=\"fa fa-twitter\"></i>\n                <p>How to handle ethical disagreements with your clients.</p>\n              </div>\n              <div class=\"feed-line\">\n                <i class=\"fa fa-twitter\"></i>\n                <p>The tangible benefits of designing at 1x pixel density.</p>\n              </div>\n              <div class=\"feed-line\">\n                <i class=\"fa fa-facebook-square\"></i>\n                <p>\n                  A collection of 25 stunning sites that you can use for\n                  inspiration.\n                </p>\n              </div>\n            </div>\n          </div>\n          <div class=\"col-md-4\">\n            <h5>Follow Us</h5>\n            <ul class=\"social-buttons\">\n              <li>\n                <a\n                  href=\"#pablo\"\n                  class=\"btn btn-icon btn-neutral btn-twitter btn-round\"\n                >\n                  <i class=\"fa fa-twitter\"></i>\n                </a>\n              </li>\n              <li>\n                <a\n                  href=\"#pablo\"\n                  class=\"btn btn-icon btn-neutral btn-facebook btn-round\"\n                >\n                  <i class=\"fa fa-facebook-square\"></i>\n                </a>\n              </li>\n              <li>\n                <a\n                  href=\"#pablo\"\n                  class=\"btn btn-icon btn-neutral btn-dribbble btn-round\"\n                >\n                  <i class=\"fa fa-dribbble\"></i>\n                </a>\n              </li>\n              <li>\n                <a\n                  href=\"#pablo\"\n                  class=\"btn btn-icon btn-neutral btn-google btn-round\"\n                >\n                  <i class=\"fa fa-google-plus\"></i>\n                </a>\n              </li>\n              <li>\n                <a\n                  href=\"#pablo\"\n                  class=\"btn btn-icon btn-neutral btn-instagram btn-round\"\n                >\n                  <i class=\"fa fa-instagram\"></i>\n                </a>\n              </li>\n            </ul>\n            <h5>\n              <small>Numbers Don't Lie</small>\n            </h5>\n            <h5>\n              14.521\n              <small class=\"text-muted\">Freelancers</small>\n            </h5>\n            <h5>\n              1.423.183\n              <small class=\"text-muted\">Transactions</small>\n            </h5>\n          </div>\n        </div>\n      </div>\n      <hr />\n      <!-- <div class=\"copyright\">\n        © {{ data | date: \"yyyy\" }} Creative Tim All Rights Reserved.\n      </div> -->\n    </div>\n  </footer>\n</div>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/basicelements/basicelements.component.html":
 /*!*************************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/basicelements/basicelements.component.html ***!
@@ -325,6 +351,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing/landing.component.html":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/landing/landing.component.html ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"wrapper\">  <div class=\"page-header page-header-large\">\n      <!-- <div class=\"page-header-image rellax-header\" data-rellax-speed=\"-8\" style=\"background-image: url('assets/img/2375_4a.jpg');\">\n      </div> -->\n      <div class=\"page-header-image rellax-header\" data-rellax-speed=\"-8\" style=\"background-image: url('https://firebasestorage.googleapis.com/v0/b/travel-trailer-gypsies-9c69a.appspot.com/o/Optimized-2375_4a.jpg?alt=media&token=7385f63b-cccb-4dd0-8d63-a89440c8f8b8');\">\n      </div>\n      <div class=\"container\">\n          <div class=\"content-center\">\n              <br>\n              <br>\n              <br>\n              <br>\n              <br>\n              <br>\n              <br>\n              <br>\n              <br>\n              <br>\n              <br>\n              <br>\n              <br>\n              <h1 class=\"title\">Life, as we know it...</h1>\n              <!-- <div class=\"text-center\">\n                  <a href=\"#pablo\" class=\"btn btn-primary btn-icon btn-round\">\n                      <i class=\"fa fa-facebook-square\"></i>\n                  </a>\n                  <a href=\"#pablo\" class=\"btn btn-primary btn-icon btn-round\">\n                      <i class=\"fa fa-twitter\"></i>\n                  </a>\n                  <a href=\"#pablo\" class=\"btn btn-primary btn-icon btn-round\">\n                      <i class=\"fa fa-google-plus\"></i>\n                  </a>\n              </div> -->\n          </div>\n      </div>\n  </div>\n  <div class=\"section section-about-us\">\n      <div class=\"container\">\n          <div class=\"row\">\n              <div class=\"col-md-8 ml-auto mr-auto text-center\">\n                  <h2 class=\"title\">Who we are</h2>\n                  <h5 class=\"description\">We're Jim and Eloisa Garoutte and we're lucky enough to be living our dream!\n                  </h5>\n              </div>\n          </div>\n          <div class=\"separator separator-primary\"></div>\n          <div class=\"section-story-overview\">\n              <div class=\"row\">\n                  <div class=\"col-md-6\">\n                      <div class=\"image-container image-left\" style=\"background-image: url('https://firebasestorage.googleapis.com/v0/b/travel-trailer-gypsies-9c69a.appspot.com/o/September_2018_route.jpg?alt=media&token=f45a7e5f-ae70-471c-af69-8658c9224695')\">\n                          <!-- First image on the left side -->\n                          <p class=\"blockquote blockquote-primary\">\"Moving me down the highway. Rolling me down the highway. Moving ahead so life won't pass me by. \"\n                              <br>\n                              <br>\n                              <small>-Jim Croce</small>\n                          </p>\n                      </div>\n                      <!-- Second image on the left side of the article -->\n                      <div class=\"image-container\" style=\"background-image: url('https://firebasestorage.googleapis.com/v0/b/travel-trailer-gypsies-9c69a.appspot.com/o/2375_2.jpg?alt=media&token=9048391c-d613-46b6-ad0d-59f686b73f49')\"></div>\n                  </div>\n                  <div class=\"col-md-5\">\n                      <!-- First image on the right side, above the article -->\n                      <div class=\"image-container image-right\" style=\"background-image: url('https://firebasestorage.googleapis.com/v0/b/travel-trailer-gypsies-9c69a.appspot.com/o/Jim_Elo_1.jpg?alt=media&token=f9b3dae9-72fd-4670-b739-7af76d9944ae')\"></div>\n                      <h3>Pursuing a life filled with new experiences.</h3>\n                      <p>\n                          Eloisa always said \"I don't want to wait until we retire to get to travel!\". But like most people, jobs and children kept us locked into a schedule that only allowed us the opportunity to travel on weekends, holidays and for two weeks of vacation each year. Coincidentally, that all changed in 2018 when two things happened: I got a remote job and our only child went off to college.\n                      </p> \n                      <p>\n                          Suddenly we had all this freedom to travel, but travelling is expensive...so how can we do it without going into debt? Well, we've always loved to camp. In fact, we were avid tent campers for 25 years. But in 2011 we felt we were getting a bit too old to crawl in and out of a tent so we took the plunge and bought our first travel trailer, a used 21 foot bunkhouse model made by R-Vision. Here was our solution, we'd see the country in our 21 foot travel trailer!\n                      </p>\n                      <p>\n                          Our first trip (as empty nesters) was for the entire month of September 2018, right after we dropped our daughter off at college. We took a 2000 mile jaunt through parts of Texas, New Mexico, and Colorado and that's where we discovered that our little travel trailer just wasn't big enough for our new lifestyle. After lots of research by Eloisa, we decided on replacing it with the 2019 Lance 2375 you see pictured above.\n                      </p>                          \n                      <p>\n                          The blog posts on this website will contain stories, information and photos about our experiences. Thanks for stopping by!\n                      </p>\n                      <p>Jim Garoutte, February 2019</p> \n                  </div>\n              </div>\n          </div>\n      </div>\n  </div>\n  <div class=\"section section-team text-center\">\n      <div class=\"container\">\n          <h2 class=\"title\">Here is our team</h2>\n          <div class=\"team\">\n              <div class=\"row\">\n                  <div class=\"col-md-4\">\n                      <div class=\"team-player\">\n                          <img src=\"https://firebasestorage.googleapis.com/v0/b/travel-trailer-gypsies-9c69a.appspot.com/o/Eloisa_Garoutte_2.jpg?alt=media&token=f91061f4-6201-4d7f-bb4f-ef34ad7c6fd0\" alt=\"Thumbnail Image\" class=\"rounded-circle img-fluid img-raised\">\n                          <h4 class=\"title\">Eloisa Garoutte</h4>\n                          <p class=\"category text-primary\">Logistics and Photography</p>\n                          <p class=\"description\">Eloisa is our resident logistics expert. Every bite of food, \n                              item of clothing and creature comfort available in our trailer can be attributed \n                              to her skill at planning and preparation. In addition, she is an artist of \n                              considerable range. She draws, paints, and documents our travels through her \n                              beautiful photography. And finally, she's an extremely talented chef who prepares \n                              gourmet meals for us while we're on the road!\n                              <!-- <a href=\"#\">links</a> for people to be able to follow them outside the site. -->\n                          </p>\n                          <!-- <a href=\"#pablo\" class=\"btn btn-primary btn-icon btn-round\"><i class=\"fa fa-twitter\"></i></a>\n                          <a href=\"#pablo\" class=\"btn btn-primary btn-icon btn-round\"><i class=\"fa fa-instagram\"></i></a>\n                          <a href=\"#pablo\" class=\"btn btn-primary btn-icon btn-round\"><i class=\"fa fa-facebook-square\"></i></a> -->\n                      </div>\n                  </div>\n                  <div class=\"col-md-4\">\n                      <div class=\"team-player\">\n                          <img src=\"https://firebasestorage.googleapis.com/v0/b/travel-trailer-gypsies-9c69a.appspot.com/o/Jim_Garoutte_8.jpg?alt=media&token=9996d5ea-9d56-4236-bec3-395d1049a8a0\" alt=\"Thumbnail Image\" class=\"rounded-circle img-fluid img-raised\">\n                          <h4 class=\"title\">Jim Garoutte</h4>\n                          <p class=\"category text-primary\">Driving and Website Development</p>\n                          <p class=\"description\">Jim does all of the driving, firewood chopping and outdoor \n                              grilling. He also determines which gas stations to stop at, which is not always \n                              an easy task while towing a 28 ft travel trailer! Additionally, he is using his \n                              Angular programming skills (in conjunction with the Creative Tim template) to \n                              develop this website.\n                              <!-- <a href=\"#\">links</a> for people to be able to follow them outside the site. -->\n                          </p>\n                          <!-- <a href=\"#pablo\" class=\"btn btn-primary btn-icon btn-round\"><i class=\"fa fa-twitter\"></i></a>\n                          <a href=\"#pablo\" class=\"btn btn-primary btn-icon btn-round\"><i class=\"fa fa-linkedin\"></i></a> -->\n                      </div>\n                  </div>\n                  <div class=\"col-md-4\">\n                      <div class=\"team-player\">\n                          <img src=\"https://firebasestorage.googleapis.com/v0/b/travel-trailer-gypsies-9c69a.appspot.com/o/Indi_4.jpg?alt=media&token=e6f1714b-dce8-47cc-b810-052d8fb54448\" alt=\"Thumbnail Image\" class=\"rounded-circle img-fluid img-raised\">\n                          <h4 class=\"title\">Iñigo Montoya (Indi)</h4>\n                          <p class=\"category text-primary\">Security and Unconditional Love</p>\n                          <p class=\"description\">Indi's vigilance keeps us safe from all manner of real and imaginary threats. He also makes us feel better on drab and dreary days with his gentle demeanor and sweet face. He's a good boy!\n                              <!-- <a href=\"#\">links</a> for people to be able to follow them outside the site. -->\n                          </p>\n                          <!-- <a href=\"#pablo\" class=\"btn btn-primary btn-icon btn-round\"><i class=\"fa fa-google-plus\"></i></a>\n                          <a href=\"#pablo\" class=\"btn btn-primary btn-icon btn-round\"><i class=\"fa fa-youtube-play\"></i></a>\n                          <a href=\"#pablo\" class=\"btn btn-primary btn-icon btn-round\"><i class=\"fa fa-twitter\"></i></a> -->\n                      </div>\n                  </div>\n              </div>\n          </div>\n      </div>\n  </div>\n  <!-- <div class=\"section section-contact-us text-center\">\n      <div class=\"container\">\n          <h2 class=\"title\">Want to work with us?</h2>\n          <p class=\"description\">Your project is very important to us.</p>\n          <div class=\"row\">\n              <div class=\"col-lg-6 text-center col-md-8 ml-auto mr-auto\">\n                <div class=\"input-group input-lg\" [ngClass]=\"{'input-group-focus':focus===true}\">\n                  <div class=\"input-group-prepend\" >\n                    <span class=\"input-group-text\">\n                        <i class=\"now-ui-icons users_circle-08\"></i>\n                    </span>\n                  </div>\n                    <input type=\"text\" class=\"form-control\" placeholder=\"Left Font Awesome Icon\" (focus)=\"focus=true\" (blur)=\"focus=false\">\n                </div>\n                <div class=\"input-group input-lg\" [ngClass]=\"{'input-group-focus':focus1===true}\">\n                  <div class=\"input-group-prepend\" >\n                    <span class=\"input-group-text\">\n                          <i class=\"now-ui-icons ui-1_email-85\"></i>\n                    </span>\n                  </div>\n                    <input type=\"text\" class=\"form-control\" placeholder=\"Left Font Awesome Icon\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                </div>\n                  <div class=\"textarea-container\">\n                      <textarea class=\"form-control\" name=\"name\" rows=\"4\" cols=\"80\" placeholder=\"Type a message...\"></textarea>\n                  </div>\n                  <div class=\"send-button\">\n                      <a href=\"#pablo\" class=\"btn btn-primary btn-round btn-block btn-lg\">Send Message</a>\n                  </div>\n              </div>\n          </div>\n      </div>\n  </div> -->\n  <footer class=\"footer footer-default\">\n      <div class=\"container\">\n          <nav>\n              <ul>\n                  <!-- <li>\n                      <a href=\"https://www.creative-tim.com\">\n                          Creative Tim\n                      </a>\n                  </li>\n                  <li>\n                      <a href=\"https://www.creative-tim.com/about-us\">\n                          About Us\n                      </a>\n                  </li>\n                  <li>\n                      <a href=\"http://blog.creative-tim.com\">\n                          Blog\n                      </a>\n                  </li> -->\n                  <li>\n                      <a href=\"https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md\">\n                          MIT License\n                      </a>\n                  </li>\n              </ul>\n          </nav>\n          <div class=\"copyright\">\n              &copy;\n              {{data | date: 'yyyy'}}, Designed by\n              <a href=\"https://www.invisionapp.com\" target=\"_blank\">Invision</a>. Coded by\n              <a href=\"https://www.creative-tim.com\" target=\"_blank\">Creative Tim and Jim Garoutte</a>.\n          </div>\n      </div>\n  </footer>\n</div>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/presentation/presentation.component.html":
 /*!************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/presentation/presentation.component.html ***!
@@ -477,7 +516,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-expand-lg bg-white fixed-top navbar-transparent\" color-on-scroll=\"500\">\n    <div class=\"container\">\n        <div class=\"navbar-translate\">\n            <a class=\"navbar-brand\" [routerLink]=\"['/presentation']\" placement=\"bottom\" ngbTooltip=\"Designed by Invision. Coded by Creative Tim\">\n                Now Ui Kit Pro\n            </a>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarToggler\" aria-controls=\"navbarTogglerDemo02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" (click)=\"sidebarToggle()\">\n                <span class=\"navbar-toggler-bar bar1\"></span>\n                <span class=\"navbar-toggler-bar bar2\"></span>\n                <span class=\"navbar-toggler-bar bar3\"></span>\n            </button>\n        </div>\n        <div class=\"collapse navbar-collapse\" data-nav-image=\"assets/img/blurred-image-1.jpg\" data-color=\"orange\">\n            <ul class=\"navbar-nav ml-auto\">\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" [routerLink]=\"['/components']\">\n                      <i class=\"now-ui-icons design_app\"></i>\n                      <p>Components</p>\n                    </a>\n                </li>\n                <a ngbDropdown class=\"nav-item dropdown\">\n                    <div class=\"nav-link dropdown-toggle\" ngbDropdownToggle>\n                      <i class=\"now-ui-icons files_paper\" aria-hidden=\"true\"></i>\n                      <p>Sections</p>\n                    </div>\n                    <div ngbDropdownMenu class=\"dropdown-menu dropdown-menu-right\">\n                        <a class=\"dropdown-item\" [routerLink]=\"['/sections']\" fragment=\"headers\"><i class=\"now-ui-icons shopping_box\"></i> Headers</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/sections']\" fragment=\"features\"><i class=\"now-ui-icons ui-2_settings-90\"></i> Features</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/sections']\" fragment=\"blogs\"><i class=\"now-ui-icons text_align-left\"></i> Blogs</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/sections']\" fragment=\"teams\"><i class=\"now-ui-icons sport_user-run\"></i> Teams</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/sections']\" fragment=\"projects\"><i class=\"now-ui-icons education_paper\"></i> Projects</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/sections']\" fragment=\"pricing\"><i class=\"now-ui-icons business_money-coins\"></i> Pricing</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/sections']\" fragment=\"testimonials\"><i class=\"now-ui-icons ui-2_chat-round\"></i> Testimonials</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/sections']\" fragment=\"contact-us\"><i class=\"now-ui-icons tech_mobile\"></i> Contacts</a>\n                    </div>\n                </a>\n                <a ngbDropdown class=\"nav-item dropdown\">\n                    <div class=\"nav-link dropdown-toggle\" ngbDropdownToggle>\n                      <i class=\"now-ui-icons design_image\" aria-hidden=\"true\"></i>\n                      <p>Examples</p>\n                    </div>\n                    <div ngbDropdownMenu class=\"dropdown-menu dropdown-menu-right\">\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/aboutus']\"><i class=\"now-ui-icons business_bulb-63\"></i> About-us</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/blogpost']\"><i class=\"now-ui-icons text_align-left\"></i> Blog Post</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/blogposts']\"><i class=\"now-ui-icons design_bullet-list-67\"></i> Blog Posts</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/contactus']\"><i class=\"now-ui-icons location_pin\"></i> Contact Us</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/landing']\"><i class=\"now-ui-icons education_paper\"></i> Landing Page</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/login']\">  <i class=\"now-ui-icons users_circle-08\"></i> Login Page</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/pricing']\"><i class=\"now-ui-icons business_money-coins\"></i>&nbsp; Pricing</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/ecommerce']\">  <i class=\"now-ui-icons shopping_shop\"></i> Ecommerce Page</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/productpage']\"><i class=\"now-ui-icons shopping_bag-16\"></i> Product Page</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/profile']\"><i class=\"now-ui-icons users_single-02\"></i> Profile Page</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/register']\"><i class=\"now-ui-icons tech_mobile\"></i> Signup Page</a>\n                    </div>\n                </a>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link btn btn-primary\" href=\"https://www.creative-tim.com/product/now-ui-kit-pro-angular\">\n                       <p>Buy now</p>\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-expand-lg bg-white fixed-top navbar-transparent\" color-on-scroll=\"500\">\n    <div class=\"container\">\n        <div class=\"navbar-translate\">\n            <a class=\"navbar-brand\" [routerLink]=\"['/landing']\" placement=\"bottom\" ngbTooltip=\"Take me Home!\">\n                Home\n            </a>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarToggler\" aria-controls=\"navbarTogglerDemo02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" (click)=\"sidebarToggle()\">\n                <span class=\"navbar-toggler-bar bar1\"></span>\n                <span class=\"navbar-toggler-bar bar2\"></span>\n                <span class=\"navbar-toggler-bar bar3\"></span>\n            </button>\n        </div>\n        <div class=\"collapse navbar-collapse\" data-nav-image=\"assets/img/blurred-image-1.jpg\" data-color=\"blue\">\n            <ul class=\"navbar-nav ml-auto\">\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" [routerLink]=\"['/blogposts']\">\n                      <i class=\"now-ui-icons design_app\"></i>\n                      <p>Blogposts</p>\n                    </a>\n                </li>\n                <a ngbDropdown class=\"nav-item dropdown\">\n                    <div class=\"nav-link dropdown-toggle\" ngbDropdownToggle>\n                      <i class=\"now-ui-icons files_paper\" aria-hidden=\"true\"></i>\n                      <p>Sections</p>\n                    </div>\n                    <div ngbDropdownMenu class=\"dropdown-menu dropdown-menu-right\">\n                        <a class=\"dropdown-item\" [routerLink]=\"['/sections']\" fragment=\"headers\"><i class=\"now-ui-icons shopping_box\"></i> Headers</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/sections']\" fragment=\"features\"><i class=\"now-ui-icons ui-2_settings-90\"></i> Features</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/sections']\" fragment=\"blogs\"><i class=\"now-ui-icons text_align-left\"></i> Blogs</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/sections']\" fragment=\"teams\"><i class=\"now-ui-icons sport_user-run\"></i> Teams</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/sections']\" fragment=\"projects\"><i class=\"now-ui-icons education_paper\"></i> Projects</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/sections']\" fragment=\"pricing\"><i class=\"now-ui-icons business_money-coins\"></i> Pricing</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/sections']\" fragment=\"testimonials\"><i class=\"now-ui-icons ui-2_chat-round\"></i> Testimonials</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/sections']\" fragment=\"contact-us\"><i class=\"now-ui-icons tech_mobile\"></i> Contacts</a>\n                    </div>\n                </a>\n                <a ngbDropdown class=\"nav-item dropdown\">\n                    <div class=\"nav-link dropdown-toggle\" ngbDropdownToggle>\n                      <i class=\"now-ui-icons design_image\" aria-hidden=\"true\"></i>\n                      <p>Examples</p>\n                    </div>\n                    <div ngbDropdownMenu class=\"dropdown-menu dropdown-menu-right\">\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/aboutus']\"><i class=\"now-ui-icons business_bulb-63\"></i> About-us</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/blogpost']\"><i class=\"now-ui-icons text_align-left\"></i> Blog Post</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/blogposts']\"><i class=\"now-ui-icons design_bullet-list-67\"></i> Blog Posts</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/contactus']\"><i class=\"now-ui-icons location_pin\"></i> Contact Us</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/landing']\"><i class=\"now-ui-icons education_paper\"></i> Landing Page</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/login']\">  <i class=\"now-ui-icons users_circle-08\"></i> Login Page</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/pricing']\"><i class=\"now-ui-icons business_money-coins\"></i>&nbsp; Pricing</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/ecommerce']\">  <i class=\"now-ui-icons shopping_shop\"></i> Ecommerce Page</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/productpage']\"><i class=\"now-ui-icons shopping_bag-16\"></i> Product Page</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/profile']\"><i class=\"now-ui-icons users_single-02\"></i> Profile Page</a>\n                        <a class=\"dropdown-item\" [routerLink]=\"['/examples/register']\"><i class=\"now-ui-icons tech_mobile\"></i> Signup Page</a>\n                    </div>\n                </a>\n                <!-- <li class=\"nav-item\">\n                    <a class=\"nav-link btn btn-primary\" href=\"https://www.creative-tim.com/product/travel-trailer-gypsies-firebase\">\n                       <p>Buy now</p>\n                    </a>\n                </li> -->\n            </ul>\n        </div>\n    </div>\n</nav>\n");
 
 /***/ }),
 
@@ -651,18 +690,26 @@ var AppComponent = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm5/animations.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm5/forms.js");
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/__ivy_ngcc__/fesm5/ng-bootstrap.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm5/router.js");
-/* harmony import */ var _app_routing__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.routing */ "./src/app/app.routing.ts");
-/* harmony import */ var _sections_sections_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./sections/sections.module */ "./src/app/sections/sections.module.ts");
-/* harmony import */ var _components_components_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/components.module */ "./src/app/components/components.module.ts");
-/* harmony import */ var _examples_examples_module__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./examples/examples.module */ "./src/app/examples/examples.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./shared/navbar/navbar.component */ "./src/app/shared/navbar/navbar.component.ts");
-/* harmony import */ var _presentation_presentation_module__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./presentation/presentation.module */ "./src/app/presentation/presentation.module.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm5/forms.js");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/__ivy_ngcc__/fesm5/ng-bootstrap.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm5/router.js");
+/* harmony import */ var _app_routing__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.routing */ "./src/app/app.routing.ts");
+/* harmony import */ var _sections_sections_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./sections/sections.module */ "./src/app/sections/sections.module.ts");
+/* harmony import */ var _components_components_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/components.module */ "./src/app/components/components.module.ts");
+/* harmony import */ var _examples_examples_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./examples/examples.module */ "./src/app/examples/examples.module.ts");
+/* harmony import */ var _angular_fire__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/fire */ "./node_modules/@angular/fire/__ivy_ngcc__/index.js");
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/fire/firestore */ "./node_modules/@angular/fire/__ivy_ngcc__/firestore/index.js");
+/* harmony import */ var _angular_fire_storage__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/fire/storage */ "./node_modules/@angular/fire/__ivy_ngcc__/storage/index.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./shared/navbar/navbar.component */ "./src/app/shared/navbar/navbar.component.ts");
+/* harmony import */ var _presentation_presentation_module__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./presentation/presentation.module */ "./src/app/presentation/presentation.module.ts");
+/* harmony import */ var _landing_landing_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./landing/landing.component */ "./src/app/landing/landing.component.ts");
+/* harmony import */ var _blogpost_blogpost_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./blogpost/blogpost.component */ "./src/app/blogpost/blogpost.component.ts");
+/* harmony import */ var _blogposts_blogposts_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./blogposts/blogposts.component */ "./src/app/blogposts/blogposts.component.ts");
+/* harmony import */ var ngx_auth_firebaseui__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ngx-auth-firebaseui */ "./node_modules/ngx-auth-firebaseui/__ivy_ngcc__/fesm5/ngx-auth-firebaseui.js");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm5/animations.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -672,7 +719,15 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
   return (mod && mod.__esModule) ? mod : { "default": mod };
 };
- // this is needed!
+
+
+
+
+
+
+
+
+
 
 
 
@@ -688,24 +743,39 @@ var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_9__["AppComponent"],
-                _shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_10__["NavbarComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_12__["AppComponent"],
+                _shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_13__["NavbarComponent"],
+                _landing_landing_component__WEBPACK_IMPORTED_MODULE_15__["LandingComponent"],
+                _blogpost_blogpost_component__WEBPACK_IMPORTED_MODULE_16__["BlogpostComponent"],
+                _blogposts_blogposts_component__WEBPACK_IMPORTED_MODULE_17__["BlogpostsComponent"],
             ],
             imports: [
-                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_0__["BrowserAnimationsModule"],
-                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
-                _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"],
-                _app_routing__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"],
-                _presentation_presentation_module__WEBPACK_IMPORTED_MODULE_11__["PresentationModule"],
-                _sections_sections_module__WEBPACK_IMPORTED_MODULE_6__["SectionsModule"],
-                _components_components_module__WEBPACK_IMPORTED_MODULE_7__["ComponentsModule"],
-                _examples_examples_module__WEBPACK_IMPORTED_MODULE_8__["ExamplesModule"]
+                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_19__["BrowserAnimationsModule"],
+                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_2__["NgbModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormsModule"],
+                _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"],
+                _app_routing__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"],
+                _presentation_presentation_module__WEBPACK_IMPORTED_MODULE_14__["PresentationModule"],
+                _sections_sections_module__WEBPACK_IMPORTED_MODULE_5__["SectionsModule"],
+                _components_components_module__WEBPACK_IMPORTED_MODULE_6__["ComponentsModule"],
+                _examples_examples_module__WEBPACK_IMPORTED_MODULE_7__["ExamplesModule"],
+                _angular_fire__WEBPACK_IMPORTED_MODULE_8__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_11__["environment"].firebase),
+                _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_9__["AngularFirestoreModule"],
+                _angular_fire_storage__WEBPACK_IMPORTED_MODULE_10__["AngularFireStorageModule"],
+                // Specify the ngx-auth-firebaseui library as an import
+                ngx_auth_firebaseui__WEBPACK_IMPORTED_MODULE_18__["NgxAuthFirebaseUIModule"].forRoot({
+                    apiKey: "AIzaSyD_-U6r6_0O40ZQnteWEVDkS0nC6kIzJ5w",
+                    authDomain: "travel-trailer-gypsies-9c69a.firebaseapp.com",
+                    databaseURL: "https://travel-trailer-gypsies-9c69a.firebaseio.com",
+                    projectId: "travel-trailer-gypsies-9c69a",
+                    storageBucket: "travel-trailer-gypsies-9c69a.appspot.com",
+                    messagingSenderId: "930709471294",
+                }),
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_9__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_12__["AppComponent"]],
         })
     ], AppModule);
     return AppModule;
@@ -729,21 +799,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm5/common.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm5/platform-browser.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm5/router.js");
-/* harmony import */ var _presentation_presentation_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./presentation/presentation.component */ "./src/app/presentation/presentation.component.ts");
-/* harmony import */ var _components_components_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/components.component */ "./src/app/components/components.component.ts");
-/* harmony import */ var _sections_sections_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./sections/sections.component */ "./src/app/sections/sections.component.ts");
-/* harmony import */ var _examples_aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./examples/aboutus/aboutus.component */ "./src/app/examples/aboutus/aboutus.component.ts");
-/* harmony import */ var _examples_blogpost_blogpost_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./examples/blogpost/blogpost.component */ "./src/app/examples/blogpost/blogpost.component.ts");
-/* harmony import */ var _examples_blogposts_blogposts_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./examples/blogposts/blogposts.component */ "./src/app/examples/blogposts/blogposts.component.ts");
-/* harmony import */ var _examples_contactus_contactus_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./examples/contactus/contactus.component */ "./src/app/examples/contactus/contactus.component.ts");
-/* harmony import */ var _examples_ecommerce_ecommerce_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./examples/ecommerce/ecommerce.component */ "./src/app/examples/ecommerce/ecommerce.component.ts");
-/* harmony import */ var _examples_landing_landing_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./examples/landing/landing.component */ "./src/app/examples/landing/landing.component.ts");
-/* harmony import */ var _examples_login_login_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./examples/login/login.component */ "./src/app/examples/login/login.component.ts");
-/* harmony import */ var _examples_productpage_productpage_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./examples/productpage/productpage.component */ "./src/app/examples/productpage/productpage.component.ts");
-/* harmony import */ var _examples_profile_profile_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./examples/profile/profile.component */ "./src/app/examples/profile/profile.component.ts");
-/* harmony import */ var _examples_register_register_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./examples/register/register.component */ "./src/app/examples/register/register.component.ts");
-/* harmony import */ var _components_nucleoicons_nucleoicons_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/nucleoicons/nucleoicons.component */ "./src/app/components/nucleoicons/nucleoicons.component.ts");
-/* harmony import */ var _examples_pricing_pricing_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./examples/pricing/pricing.component */ "./src/app/examples/pricing/pricing.component.ts");
+/* harmony import */ var _landing_landing_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./landing/landing.component */ "./src/app/landing/landing.component.ts");
+/* harmony import */ var _blogposts_blogposts_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./blogposts/blogposts.component */ "./src/app/blogposts/blogposts.component.ts");
+/* harmony import */ var _blogpost_blogpost_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./blogpost/blogpost.component */ "./src/app/blogpost/blogpost.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -760,35 +818,27 @@ var __importDefault = (undefined && undefined.__importDefault) || function (mod)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 var routes = [
-    { path: '', redirectTo: 'presentation', pathMatch: 'full' },
-    { path: 'presentation', component: _presentation_presentation_component__WEBPACK_IMPORTED_MODULE_4__["PresentationComponent"] },
-    { path: 'components', component: _components_components_component__WEBPACK_IMPORTED_MODULE_5__["ComponentsComponent"] },
-    { path: 'sections', component: _sections_sections_component__WEBPACK_IMPORTED_MODULE_6__["SectionsComponent"] },
-    { path: 'nucleoicons', component: _components_nucleoicons_nucleoicons_component__WEBPACK_IMPORTED_MODULE_17__["NucleoiconsComponent"] },
-    { path: 'examples/aboutus', component: _examples_aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_7__["AboutusComponent"] },
-    { path: 'examples/blogpost', component: _examples_blogpost_blogpost_component__WEBPACK_IMPORTED_MODULE_8__["BlogpostComponent"] },
-    { path: 'examples/blogposts', component: _examples_blogposts_blogposts_component__WEBPACK_IMPORTED_MODULE_9__["BlogpostsComponent"] },
-    { path: 'examples/contactus', component: _examples_contactus_contactus_component__WEBPACK_IMPORTED_MODULE_10__["ContactusComponent"] },
-    { path: 'examples/ecommerce', component: _examples_ecommerce_ecommerce_component__WEBPACK_IMPORTED_MODULE_11__["EcommerceComponent"] },
-    { path: 'examples/landing', component: _examples_landing_landing_component__WEBPACK_IMPORTED_MODULE_12__["LandingComponent"] },
-    { path: 'examples/login', component: _examples_login_login_component__WEBPACK_IMPORTED_MODULE_13__["LoginComponent"] },
-    { path: 'examples/pricing', component: _examples_pricing_pricing_component__WEBPACK_IMPORTED_MODULE_18__["PricingComponent"] },
-    { path: 'examples/productpage', component: _examples_productpage_productpage_component__WEBPACK_IMPORTED_MODULE_14__["ProductpageComponent"] },
-    { path: 'examples/profile', component: _examples_profile_profile_component__WEBPACK_IMPORTED_MODULE_15__["ProfileComponent"] },
-    { path: 'examples/register', component: _examples_register_register_component__WEBPACK_IMPORTED_MODULE_16__["RegisterComponent"] }
+    { path: '', redirectTo: 'landing', pathMatch: 'full' },
+    //{ path: '', redirectTo: 'presentation', pathMatch: 'full' },
+    { path: 'landing', component: _landing_landing_component__WEBPACK_IMPORTED_MODULE_4__["LandingComponent"] },
+    // { path: 'presentation',         component: PresentationComponent },
+    // { path: 'components',           component: ComponentsComponent },
+    // { path: 'sections',             component: SectionsComponent },
+    // { path: 'nucleoicons',          component: NucleoiconsComponent },
+    // { path: 'examples/aboutus',     component: AboutusComponent },
+    // { path: 'examples/blogpost',    component: BlogpostComponent },
+    { path: 'blogposts', component: _blogposts_blogposts_component__WEBPACK_IMPORTED_MODULE_5__["BlogpostsComponent"] },
+    { path: 'blogpost/:id', component: _blogpost_blogpost_component__WEBPACK_IMPORTED_MODULE_6__["BlogpostComponent"] }
+    //{ path: 'examples/blogposts',   component: BlogpostsComponent },
+    // { path: 'examples/contactus',   component: ContactusComponent },
+    // { path: 'examples/ecommerce',   component: EcommerceComponent },
+    // { path: 'examples/landing',     component: LandingComponent },
+    // { path: 'examples/login',       component: LoginComponent },
+    // { path: 'examples/pricing',     component: PricingComponent },
+    // { path: 'examples/productpage', component: ProductpageComponent },
+    // { path: 'examples/profile',     component: ProfileComponent },
+    // { path: 'examples/register',    component: RegisterComponent }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -806,6 +856,324 @@ var AppRoutingModule = /** @class */ (function () {
         })
     ], AppRoutingModule);
     return AppRoutingModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/blogpost/blogpost.component.scss":
+/*!**************************************************!*\
+  !*** ./src/app/blogpost/blogpost.component.scss ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Jsb2dwb3N0L2Jsb2dwb3N0LmNvbXBvbmVudC5zY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/blogpost/blogpost.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/blogpost/blogpost.component.ts ***!
+  \************************************************/
+/*! exports provided: BlogpostComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BlogpostComponent", function() { return BlogpostComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var rellax__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rellax */ "./node_modules/rellax/rellax.js");
+/* harmony import */ var rellax__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rellax__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm5/router.js");
+/* harmony import */ var _blogpost_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./blogpost.service */ "./src/app/blogpost/blogpost.service.ts");
+/* harmony import */ var _angular_fire_storage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/fire/storage */ "./node_modules/@angular/fire/__ivy_ngcc__/storage/index.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+
+
+
+
+var BlogpostComponent = /** @class */ (function () {
+    function BlogpostComponent(route, blogpostService, storage) {
+        this.route = route;
+        this.blogpostService = blogpostService;
+        this.storage = storage;
+        this.data = new Date();
+    }
+    BlogpostComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        var storage = this.storage;
+        var id = this.route.snapshot.paramMap.get("id");
+        this.blogpostService.getBlogPost(id).subscribe(function (data) {
+            var blog = data.payload.data();
+            var ref0 = storage.ref(blog["page_header_image"]);
+            ref0.getDownloadURL().subscribe(function (data) {
+                blog["page_header_image_url"] = data;
+            });
+            var ref1 = storage.ref(blog["image_left"]);
+            ref1.getDownloadURL().subscribe(function (data) {
+                blog["image_left_url"] = data;
+            });
+            var ref2 = storage.ref(blog["image_left_bottom"]);
+            ref2.getDownloadURL().subscribe(function (data) {
+                blog["image_left_bottom_url"] = data;
+            });
+            var ref3 = storage.ref(blog["image_right"]);
+            ref3.getDownloadURL().subscribe(function (data) {
+                blog["image_right_url"] = data;
+            });
+            _this.blog = blog;
+        });
+        var rellaxHeader = new rellax__WEBPACK_IMPORTED_MODULE_1__('.rellax-header');
+        var body = document.getElementsByTagName('body')[0];
+        body.classList.add('blog-post');
+        var navbar = document.getElementsByTagName('nav')[0];
+        navbar.classList.add('navbar-transparent');
+    };
+    BlogpostComponent.prototype.ngOnDestroy = function () {
+        var body = document.getElementsByTagName('body')[0];
+        body.classList.remove('blog-post');
+        var navbar = document.getElementsByTagName('nav')[0];
+        navbar.classList.remove('navbar-transparent');
+    };
+    BlogpostComponent.ctorParameters = function () { return [
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] },
+        { type: _blogpost_service__WEBPACK_IMPORTED_MODULE_3__["BlogpostService"] },
+        { type: _angular_fire_storage__WEBPACK_IMPORTED_MODULE_4__["AngularFireStorage"] }
+    ]; };
+    BlogpostComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-blogpost',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./blogpost.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/blogpost/blogpost.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./blogpost.component.scss */ "./src/app/blogpost/blogpost.component.scss")).default]
+        }),
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], _blogpost_service__WEBPACK_IMPORTED_MODULE_3__["BlogpostService"],
+            _angular_fire_storage__WEBPACK_IMPORTED_MODULE_4__["AngularFireStorage"]])
+    ], BlogpostComponent);
+    return BlogpostComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/blogpost/blogpost.service.ts":
+/*!**********************************************!*\
+  !*** ./src/app/blogpost/blogpost.service.ts ***!
+  \**********************************************/
+/*! exports provided: BlogpostService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BlogpostService", function() { return BlogpostService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/fire/firestore */ "./node_modules/@angular/fire/__ivy_ngcc__/firestore/index.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+
+var BlogpostService = /** @class */ (function () {
+    function BlogpostService(firestore) {
+        this.firestore = firestore;
+    }
+    BlogpostService.prototype.getBlogPost = function (id) {
+        return this.firestore.collection("blogposts").doc(id).snapshotChanges();
+    };
+    BlogpostService.ctorParameters = function () { return [
+        { type: _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_1__["AngularFirestore"] }
+    ]; };
+    BlogpostService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_1__["AngularFirestore"]])
+    ], BlogpostService);
+    return BlogpostService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/blogposts/blogposts.component.scss":
+/*!****************************************************!*\
+  !*** ./src/app/blogposts/blogposts.component.scss ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Jsb2dwb3N0cy9ibG9ncG9zdHMuY29tcG9uZW50LnNjc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/blogposts/blogposts.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/blogposts/blogposts.component.ts ***!
+  \**************************************************/
+/*! exports provided: BlogpostsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BlogpostsComponent", function() { return BlogpostsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var _blogposts_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./blogposts.service */ "./src/app/blogposts/blogposts.service.ts");
+/* harmony import */ var rellax__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rellax */ "./node_modules/rellax/rellax.js");
+/* harmony import */ var rellax__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(rellax__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm5/router.js");
+/* harmony import */ var _angular_fire_storage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/fire/storage */ "./node_modules/@angular/fire/__ivy_ngcc__/storage/index.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+
+
+
+
+var BlogpostsComponent = /** @class */ (function () {
+    function BlogpostsComponent(blogpostsService, router, storage) {
+        this.blogpostsService = blogpostsService;
+        this.router = router;
+        this.storage = storage;
+        this.data = new Date();
+        this.items = [];
+    }
+    BlogpostsComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.blogpostsService.getBlogPosts().subscribe(function (data) {
+            var items = [];
+            var storage = _this.storage;
+            data.forEach(function (doc) {
+                var item = doc.payload.doc.data();
+                item["id"] = doc.payload.doc.id;
+                console.log(item["blogposts_showcase_image"]);
+                var ref = storage.ref(item["blogposts_showcase_image"]);
+                ref.getDownloadURL().subscribe(function (data) {
+                    item["blogposts_showcase_image_url"] = data;
+                    items.push(item);
+                    //console.log(item);
+                });
+            });
+            _this.items = items;
+        });
+        var rellaxHeader = new rellax__WEBPACK_IMPORTED_MODULE_2__(".rellax-header");
+        var body = document.getElementsByTagName("body")[0];
+        body.classList.add("blog-posts");
+        var navbar = document.getElementsByTagName("nav")[0];
+        navbar.classList.add("navbar-transparent");
+    };
+    BlogpostsComponent.prototype.ngOnDestroy = function () {
+        var body = document.getElementsByTagName("body")[0];
+        body.classList.remove("blog-posts");
+        var navbar = document.getElementsByTagName("nav")[0];
+        navbar.classList.remove("navbar-transparent");
+    };
+    BlogpostsComponent.prototype.goToBlogPost = function (id) {
+        console.log(id);
+        this.router.navigate(["blogpost/" + id]);
+    };
+    BlogpostsComponent.ctorParameters = function () { return [
+        { type: _blogposts_service__WEBPACK_IMPORTED_MODULE_1__["BlogpostsService"] },
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] },
+        { type: _angular_fire_storage__WEBPACK_IMPORTED_MODULE_4__["AngularFireStorage"] }
+    ]; };
+    BlogpostsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: "app-blogposts",
+            template: __importDefault(__webpack_require__(/*! raw-loader!./blogposts.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/blogposts/blogposts.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./blogposts.component.scss */ "./src/app/blogposts/blogposts.component.scss")).default]
+        }),
+        __metadata("design:paramtypes", [_blogposts_service__WEBPACK_IMPORTED_MODULE_1__["BlogpostsService"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"],
+            _angular_fire_storage__WEBPACK_IMPORTED_MODULE_4__["AngularFireStorage"]])
+    ], BlogpostsComponent);
+    return BlogpostsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/blogposts/blogposts.service.ts":
+/*!************************************************!*\
+  !*** ./src/app/blogposts/blogposts.service.ts ***!
+  \************************************************/
+/*! exports provided: BlogpostsService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BlogpostsService", function() { return BlogpostsService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/fire/firestore */ "./node_modules/@angular/fire/__ivy_ngcc__/firestore/index.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+
+var BlogpostsService = /** @class */ (function () {
+    function BlogpostsService(firestore) {
+        this.firestore = firestore;
+    }
+    BlogpostsService.prototype.getBlogPosts = function () {
+        return this.firestore.collection("blogposts").snapshotChanges();
+    };
+    BlogpostsService.ctorParameters = function () { return [
+        { type: _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_1__["AngularFirestore"] }
+    ]; };
+    BlogpostsService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: "root",
+        }),
+        __metadata("design:paramtypes", [_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_1__["AngularFirestore"]])
+    ], BlogpostsService);
+    return BlogpostsService;
 }());
 
 
@@ -2963,6 +3331,78 @@ var RegisterComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/landing/landing.component.scss":
+/*!************************************************!*\
+  !*** ./src/app/landing/landing.component.scss ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2xhbmRpbmcvbGFuZGluZy5jb21wb25lbnQuc2NzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/landing/landing.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/landing/landing.component.ts ***!
+  \**********************************************/
+/*! exports provided: LandingComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LandingComponent", function() { return LandingComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var rellax__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rellax */ "./node_modules/rellax/rellax.js");
+/* harmony import */ var rellax__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rellax__WEBPACK_IMPORTED_MODULE_1__);
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+
+var LandingComponent = /** @class */ (function () {
+    function LandingComponent() {
+        this.data = new Date();
+    }
+    LandingComponent.prototype.ngOnInit = function () {
+        var rellaxHeader = new rellax__WEBPACK_IMPORTED_MODULE_1__('.rellax-header');
+        var body = document.getElementsByTagName('body')[0];
+        body.classList.add('landing-page');
+        var navbar = document.getElementsByTagName('nav')[0];
+        navbar.classList.add('navbar-transparent');
+    };
+    LandingComponent.prototype.ngOnDestroy = function () {
+        var body = document.getElementsByTagName('body')[0];
+        body.classList.remove('landing-page');
+        var navbar = document.getElementsByTagName('nav')[0];
+        navbar.classList.remove('navbar-transparent');
+    };
+    LandingComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-landing',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./landing.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/landing/landing.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./landing.component.scss */ "./src/app/landing/landing.component.scss")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], LandingComponent);
+    return LandingComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/presentation/presentation.component.scss":
 /*!**********************************************************!*\
   !*** ./src/app/presentation/presentation.component.scss ***!
@@ -4111,7 +4551,16 @@ var __importDefault = (undefined && undefined.__importDefault) || function (mod)
   return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 var environment = {
-    production: false
+    production: false,
+    firebase: {
+        apiKey: 'AIzaSyD_-U6r6_0O40ZQnteWEVDkS0nC6kIzJ5w',
+        authDomain: 'travel-trailer-gypsies-9c69a.firebaseapp.com',
+        databaseURL: 'https://travel-trailer-gypsies-9c69a.firebaseio.com',
+        projectId: 'travel-trailer-gypsies-9c69a',
+        storageBucket: 'travel-trailer-gypsies-9c69a.appspot.com',
+        messagingSenderId: "930709471294",
+        appId: "1:930709471294:web:d1a4df7cbc9043807a516f"
+    }
 };
 
 
