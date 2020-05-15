@@ -23,11 +23,6 @@
                 "glob": "**/*",
                 "input": "node_modules/ngx-auth-firebaseui/assets/",
                 "output": "./assets/"
-              },
-              {
-                "glob": "**/*",
-                "input": "node_modules/ngx-auth-firebaseui/assets/",
-                "output": "./assets/"
               }
             ],
             "styles": [
