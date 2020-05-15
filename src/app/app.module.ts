@@ -8,6 +8,7 @@ import { ComponentsModule } from "./components/components.module";
 import { ExamplesModule } from "./examples/examples.module";
 import { AngularFireModule } from "@angular/fire";
 import { AngularFirestoreModule } from "@angular/fire/firestore";
+import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFireStorageModule } from "@angular/fire/storage";
 import { environment } from "../environments/environment";
 import { AppComponent } from "./app.component";
@@ -46,6 +47,7 @@ import { RegisterComponent } from './register/register.component';
     ExamplesModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
+    AngularFireAuthModule,
     AngularFireStorageModule,
     // Specify the ngx-auth-firebaseui library as an import
     NgxAuthFirebaseUIModule.forRoot({
