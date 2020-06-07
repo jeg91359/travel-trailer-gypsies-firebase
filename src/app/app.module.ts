@@ -23,7 +23,6 @@ import { BlogpostsComponent } from "./blogposts/blogposts.component";
 import { NgxAuthFirebaseUIModule } from "ngx-auth-firebaseui";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +32,6 @@ import { RegisterComponent } from './register/register.component';
     BlogpostComponent,
     BlogpostsComponent,
     LoginComponent,
-    RegisterComponent,
   ],
   imports: [
     BrowserAnimationsModule,

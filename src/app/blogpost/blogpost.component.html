@@ -38,7 +38,7 @@
                   <div class="col-md-8 ml-auto mr-auto">
                       <h3 class="title">{{blog?.section1_title}}</h3>
                       <p> 
-                        {{blog?.section1_paragraph1}} 
+                        {{blog?.section1_paragraph1}}
                       </p>
                       <p>
                         {{blog?.section1_paragraph2}}
@@ -121,7 +121,7 @@
               </div>
           </div>
       </div>
-      <div class="section section-blog-info">
+      <!-- <div class="section section-blog-info">
           <div class="container">
               <div class="row">
                   <div class="col-md-8 ml-auto mr-auto">
@@ -169,36 +169,36 @@
                   </div>
               </div>
           </div>
-      </div>
+      </div> -->
       <div class="section section-comments">
           <div class="container">
               <div class="row">
                   <div class="col-md-8 ml-auto mr-auto">
                       <div class="media-area">
-                          <h3 class="title text-center">3 Comments</h3>
-                          <div class="media">
+                          <h3 class="title text-center">Comments</h3>
+                          <div  *ngFor="let comment of comments" class="media">
                               <a class="pull-left" href="#pablo">
                                   <div class="avatar">
-                                      <img class="media-object img-raised" src="assets/img/james.jpg" alt="..." />
+                                      <img class="media-object img-raised" src={{comment?.creator_image}} alt="..." />
                                   </div>
                               </a>
                               <div class="media-body">
-                                  <h5 class="media-heading">Tina Andrew
-                                      <small class="text-muted">&middot; 7 minutes ago</small>
+                                  <h5 class="media-heading">{{comment?.creator_name}}
+                                      <small class="text-muted">&middot; {{comment?.created_date | date: 'medium'}}</small>
                                   </h5>
-                                  <p>Chance too good. God level bars. I'm so proud of @LifeOfDesiigner #1 song in the country. Panda! Don't be scared of the truth because we need to restart the human foundation in truth I stand with the most humility. We are so blessed!</p>
-                                  <p>All praises and blessings to the families of people who never gave up on dreams. Don't forget, You're Awesome!</p>
-                                  <div class="media-footer">
+                                  <p>{{comment?.content}}</p>
+                                  <p></p>
+                                  <!-- <div class="media-footer">
                                       <a href="#pablo" class="btn btn-primary btn-neutral pull-right" placement="top" ngbTooltip="Reply to Comment">
                                           <i class="now-ui-icons ui-1_send"></i> Reply
                                       </a>
                                       <a href="#pablo" class="btn btn-danger btn-neutral pull-right">
                                           <i class="now-ui-icons ui-2_favourite-28"></i> 243
                                       </a>
-                                  </div>
+                                  </div> -->
                               </div>
                           </div>
-                          <div class="media">
+                          <!-- <div class="media">
                               <a class="pull-left" href="#pablo">
                                   <div class="avatar">
                                       <img class="media-object img-raised" alt="Tim Picture" src="assets/img/michael.jpg">
@@ -241,30 +241,29 @@
                                       </div>
                                   </div>
                               </div>
-                          </div>
+                          </div> -->
                       </div>
                       <h3 class="title text-center">Post your comment</h3>
                       <div class="media media-post">
-                          <a class="pull-left author" href="#pablo">
+                          <!-- <a class="pull-left author" href="#pablo">
                               <div class="avatar">
                                   <img class="media-object img-raised" alt="64x64" src="assets/img/olivia.jpg">
                               </div>
-                          </a>
+                          </a> -->
                           <div class="media-body">
-                              <textarea class="form-control" placeholder="Write a nice reply or go home..." rows="4"></textarea>
+                              <textarea class="form-control" placeholder="Write a nice comment or go home..." rows="4"></textarea>
                               <div class="media-footer">
-                                  <a href="#pablo" class="btn btn-primary pull-right">
-                                      <i class="now-ui-icons ui-1_send"></i> Reply
+                                  <a (click)="addComment()" class="btn btn-primary pull-right">
+                                      <i class="now-ui-icons ui-1_send"></i> Submit
                                   </a>
                               </div>
                           </div>
                       </div>
-                      <!-- end media-post -->
                   </div>
               </div>
           </div>
       </div>
-      <div class="section">
+      <!-- <div class="section">
           <div class="container">
               <div class="col-md-12">
                   <h2 class="title text-center">Similar Stories</h2>
@@ -328,11 +327,12 @@
                   </div>
               </div>
           </div>
-      </div>
+      </div> -->
   </div>
+  <!-- <app-comments></app-comments> -->
   <footer class="footer " data-background-color="black">
       <div class="container">
-          <nav>
+          <!-- <nav>
               <ul>
                   <li>
                       <a href="https://www.creative-tim.com">
@@ -355,11 +355,11 @@
                       </a>
                   </li>
               </ul>
-          </nav>
+          </nav> -->
           <div class="copyright">
               &copy; {{data | date: 'yyyy'}}, Designed by
               <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
-              <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+              <a href="https://www.creative-tim.com" target="_blank">Creative Tim and Jim Garoutte</a>.
           </div>
       </div>
   </footer>

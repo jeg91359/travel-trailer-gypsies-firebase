@@ -8,7 +8,7 @@ import { ComponentsComponent } from './components/components.component';
 import { SectionsComponent } from './sections/sections.component';
 import { AboutusComponent } from './examples/aboutus/aboutus.component';
 //import { BlogpostComponent } from './examples/blogpost/blogpost.component';
-// import { BlogpostsComponent } from './examples/blogposts/blogposts.component';
+//import { BlogpostsComponent } from './examples/blogposts/blogposts.component';
 import { ContactusComponent } from './examples/contactus/contactus.component';
 import { EcommerceComponent } from './examples/ecommerce/ecommerce.component';
 //import { LandingComponent } from './examples/landing/landing.component';

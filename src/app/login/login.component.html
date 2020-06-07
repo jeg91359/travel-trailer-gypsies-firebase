@@ -1,10 +1,13 @@
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <ngx-auth-firebaseui
+  appearance="fill"
+  [providers]="['google']"
   (onSuccess)="printUser($event)"
   (onError)="printError()"
 ></ngx-auth-firebaseui>
+<ngx-auth-firebaseui-user></ngx-auth-firebaseui-user>

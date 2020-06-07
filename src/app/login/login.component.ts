@@ -16,7 +16,7 @@ export class LoginComponent implements OnInit {
   }
 
   printUser(event) {
-    console.log(event);
+    console.log(event.uid);
   }
 
   printError(event) {
