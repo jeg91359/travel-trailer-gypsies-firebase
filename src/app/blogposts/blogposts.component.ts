@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { BlogpostsService } from "./blogposts.service";
+import { BlogpostsService } from "../services/blogposts.service";
 import * as Rellax from "rellax";
 import { Router } from "@angular/router";
 import { AngularFireStorage } from "@angular/fire/storage";
@@ -27,7 +27,7 @@ export class BlogpostsComponent implements OnInit {
       data.forEach(function (doc) {
         let item = doc.payload.doc.data();
         item["id"] = doc.payload.doc.id;
-        console.log(item["blogposts_showcase_image"]);
+        //console.log(item["blogposts_showcase_image"]);
         const ref = storage.ref(item["blogposts_showcase_image"]);
         ref.getDownloadURL().subscribe((data) => {
           item["blogposts_showcase_image_url"] = data;

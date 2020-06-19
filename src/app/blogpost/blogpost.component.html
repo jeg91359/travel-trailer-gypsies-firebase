@@ -1,18 +1,20 @@
-
 <div class="wrapper">
   <div class="page-header page-header-small">
-      <div class="page-header-image rellax-header" data-rellax-speed="-8" style="background-image: url({{blog?.page_header_image_url}});">
+    <div
+      class="page-header-image rellax-header"
+      data-rellax-speed="-8"
+      style="background-image: url({{ blog?.page_header_image_url }});"
+    ></div>
+    <div class="content-center">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h2 class="title">{{ blog?.title }}</h2>
+        </div>
       </div>
-      <div class="content-center">
-          <div class="row">
-              <div class="col-md-8 ml-auto mr-auto text-center">
-                  <h2 class="title">{{blog?.title}}</h2>
-              </div>
-          </div>
-      </div>
+    </div>
   </div>
   <div class="section">
-      <!-- <div class="container">
+    <!-- <div class="container">
           <div class="row">
               <div class="col-md-12">
                   <div class="button-container">
@@ -32,96 +34,104 @@
               </div>
           </div>
       </div> -->
-      <div class="section">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-8 ml-auto mr-auto">
-                      <h3 class="title">{{blog?.section1_title}}</h3>
-                      <p> 
-                        {{blog?.section1_paragraph1}}
-                      </p>
-                      <p>
-                        {{blog?.section1_paragraph2}}
-                      </p>
-                      <p>
-                        {{blog?.section1_paragraph3}} 
-                      </p>
-                      <p>
-                        {{blog?.section1_paragraph}}
-                      </p>
-                      <p class="blockquote blockquote-primary">
-                        {{blog?.blockquote1_text}}
-                          <br>
-                          <br>
-                          <small>
-                            {{blog?.blockquote1_author}}
-                          </small>
-                      </p>
-                  </div>
-              </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">{{ blog?.section1_title }}</h3>
+            <p>
+              {{ blog?.section1_paragraph1 }}
+            </p>
+            <p>
+              {{ blog?.section1_paragraph2 }}
+            </p>
+            <p>
+              {{ blog?.section1_paragraph3 }}
+            </p>
+            <p>
+              {{ blog?.section1_paragraph }}
+            </p>
+            <p class="blockquote blockquote-primary">
+              {{ blog?.blockquote1_text }}
+              <br />
+              <br />
+              <small>
+                {{ blog?.blockquote1_author }}
+              </small>
+            </p>
           </div>
+        </div>
       </div>
-      <div class="section section-blog col-md-10 ml-auto mr-auto">
-          <div class="container">
-              <div class="section-story-overview">
-                  <div class="row">
-                      <div class="col-md-6">
-                          <div class="image-container image-left" style="background-image: url({{blog?.image_left_url}})">
-                              <!-- First image on the left side -->
-                              <p class="blockquote blockquote-primary">{{blog?.blockquote2_text}}
-                                  <br>
-                                  <br>
-                                  <small> -{{blog?.blockquote2_author}} </small>
-                              </p>
-                          </div>
-                          <!-- Second image on the left side of the article -->
-                          <div class="image-container image-left-bottom" style="background-image: url({{blog?.image_left_bottom_url}})">
-                          </div>
-                      </div>
-                      <div class="col-md-5">
-                          <!-- First image on the right side, above the article -->
-                          <div class="image-container image-right" style="background-image: url({{blog?.image_right_url}})">
-                          </div>
-                          <h3 class="title">{{blog?.section2_title}}</h3>
-                          <p>
-                            {{blog?.section2_paragraph1}}
-                          </p>
-                          <p>
-                            {{blog?.section2_paragraph2}}
-                          </p>
-                          <p>
-                            {{blog?.section2_paragraph3}}
-                          </p>
-                          <p>
-                            {{blog?.section2_paragraph4}}
-                          </p>
-                      </div>
-                  </div>
+    </div>
+    <div class="section section-blog col-md-10 ml-auto mr-auto">
+      <div class="container">
+        <div class="section-story-overview">
+          <div class="row">
+            <div class="col-md-6">
+              <div
+                class="image-container image-left"
+                style="background-image: url({{ blog?.image_left_url }})"
+              >
+                <!-- First image on the left side -->
+                <p class="blockquote blockquote-primary">
+                  {{ blog?.blockquote2_text }}
+                  <br />
+                  <br />
+                  <small> -{{ blog?.blockquote2_author }} </small>
+                </p>
               </div>
+              <!-- Second image on the left side of the article -->
+              <div
+                class="image-container image-left-bottom"
+                style="background-image: url({{ blog?.image_left_bottom_url }})"
+              ></div>
+            </div>
+            <div class="col-md-5">
+              <!-- First image on the right side, above the article -->
+              <div
+                class="image-container image-right"
+                style="background-image: url({{ blog?.image_right_url }})"
+              ></div>
+              <h3 class="title">{{ blog?.section2_title }}</h3>
+              <p>
+                {{ blog?.section2_paragraph1 }}
+              </p>
+              <p>
+                {{ blog?.section2_paragraph2 }}
+              </p>
+              <p>
+                {{ blog?.section2_paragraph3 }}
+              </p>
+              <p>
+                {{ blog?.section2_paragraph4 }}
+              </p>
+            </div>
           </div>
+        </div>
       </div>
-      <div class="section">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-8 ml-auto mr-auto">
-                      <h3 class="title">{{blog?.section3_title}}</h3>
-                      <p>
-                        {{blog?.section3_paragraph1}}
-                      </p>
-                      <p> 
-                        {{blog?.section3_paragraph2}}
-                      </p>
-                      <p>
-                        {{blog?.section3_paragraph3}}
-                      </p>
-                      <p> 
-                        {{blog?.section3_paragraph4}}
-                      </p>
-                  </div>
-              </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">{{ blog?.section3_title }}</h3>
+            <p>
+              {{ blog?.section3_paragraph1 }}
+            </p>
+            <p>
+              {{ blog?.section3_paragraph2 }}
+            </p>
+            <p>
+              {{ blog?.section3_paragraph3 }}
+            </p>
+            <p>
+              {{ blog?.section3_paragraph4 }}
+            </p>
           </div>
+        </div>
       </div>
-      <!-- <div class="section section-blog-info">
+    </div>
+    <!-- <div class="section section-blog-info">
           <div class="container">
               <div class="row">
                   <div class="col-md-8 ml-auto mr-auto">
@@ -170,25 +180,33 @@
               </div>
           </div>
       </div> -->
-      <div class="section section-comments">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-8 ml-auto mr-auto">
-                      <div class="media-area">
-                          <h3 class="title text-center">Comments</h3>
-                          <div  *ngFor="let comment of comments" class="media">
-                              <a class="pull-left" href="#pablo">
-                                  <div class="avatar">
-                                      <img class="media-object img-raised" src={{comment?.creator_image}} alt="..." />
-                                  </div>
-                              </a>
-                              <div class="media-body">
-                                  <h5 class="media-heading">{{comment?.creator_name}}
-                                      <small class="text-muted">&middot; {{comment?.created_date | date: 'medium'}}</small>
-                                  </h5>
-                                  <p>{{comment?.content}}</p>
-                                  <p></p>
-                                  <!-- <div class="media-footer">
+    <div class="section section-comments">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <div class="media-area">
+              <h3 class="title text-center">Comments</h3>
+              <div *ngFor="let comment of comments" class="media">
+                <a class="pull-left" href="#pablo">
+                  <div class="avatar">
+                    <img
+                      class="media-object img-raised"
+                      src="{{ comment?.creator_image }}"
+                      onerror="this.src='assets/img/placeholder.jpg';"
+                    />
+                  </div>
+                </a>
+                <div class="media-body">
+                  <h5 class="media-heading">
+                    {{ comment?.creator_name }}
+                    <small class="text-muted"
+                      >&middot;
+                      {{ comment?.created_date | date: "medium" }}</small
+                    >
+                  </h5>
+                  <p>{{ comment?.content }}</p>
+                  <p></p>
+                  <!-- <div class="media-footer">
                                       <a href="#pablo" class="btn btn-primary btn-neutral pull-right" placement="top" ngbTooltip="Reply to Comment">
                                           <i class="now-ui-icons ui-1_send"></i> Reply
                                       </a>
@@ -196,9 +214,9 @@
                                           <i class="now-ui-icons ui-2_favourite-28"></i> 243
                                       </a>
                                   </div> -->
-                              </div>
-                          </div>
-                          <!-- <div class="media">
+                </div>
+              </div>
+              <!-- <div class="media">
                               <a class="pull-left" href="#pablo">
                                   <div class="avatar">
                                       <img class="media-object img-raised" alt="Tim Picture" src="assets/img/michael.jpg">
@@ -242,28 +260,96 @@
                                   </div>
                               </div>
                           </div> -->
-                      </div>
-                      <h3 class="title text-center">Post your comment</h3>
-                      <div class="media media-post">
-                          <!-- <a class="pull-left author" href="#pablo">
+            </div>
+            <div *ngIf="afAuth.user | async as user">
+              <form
+                class="form was-validated"
+                (submit)="onAddComment(commentForm)"
+                #commentForm="ngForm"
+              >
+                <h3 class="title text-center">Post your comment</h3>
+                <div class="media media-post">
+                  <a class="pull-left author" href="#pablo">
+                    <div class="avatar">
+                      <img
+                      class="media-object img-raised"
+                      src="{{ user?.photoURL }}"
+                      onerror="this.src='assets/img/placeholder.jpg';"
+                    />
+                    </div>
+                  </a>
+                  <div class="media-body">
+                    <!-- <h5 class="media-heading">
+                  <textarea
+                    class="form-control"
+                    placeholder="Comment Title..."
+                    ngModel
+                    required
+                    name="title"
+                    #titleInput="ngModel"
+                  ></textarea> -->
+                    <!-- <div class="valid-feedback">Valid.</div>-->
+                    <!-- <div class="invalid-feedback" *ngIf="titleInput.invalid">
+                    Please enter a valid title.
+                  </div>  -->
+                    <!-- </h5> -->
+                    <h5 class="media-heading">
+                      <textarea
+                        class="form-control"
+                        ngModel
+                        placeholder="Comment Content..."
+                        rows="4"
+                        required
+                        name="content"
+                        #contentInput="ngModel"
+                      ></textarea>
+                      <!-- <div class="valid-feedback">Valid.</div>-->
+                      <!-- <div class="invalid-feedback" *ngIf="contentInput.invalid">
+                    Please enter valid content.
+                  </div>  -->
+                    </h5>
+                    <div class="media-footer">
+                      <!-- <a href="#pablo" class="btn btn-primary pull-right">
+                              <i class="now-ui-icons ui-1_send"></i> Reply
+                          </a> -->
+                      <button class="btn btn-primary pull-right" type="submit">
+                        Save Comment
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <!-- <h3 class="title text-center">Post your comment</h3>
+              <div class="media media-post"> -->
+              <!-- <a class="pull-left author" href="#pablo">
                               <div class="avatar">
                                   <img class="media-object img-raised" alt="64x64" src="assets/img/olivia.jpg">
                               </div>
                           </a> -->
-                          <div class="media-body">
-                              <textarea class="form-control" placeholder="Write a nice comment or go home..." rows="4"></textarea>
-                              <div class="media-footer">
-                                  <a (click)="addComment()" class="btn btn-primary pull-right">
-                                      <i class="now-ui-icons ui-1_send"></i> Submit
-                                  </a>
-                              </div>
-                          </div>
-                      </div>
+              <!-- <div class="media-body">
+                  <textarea
+                    class="form-control"
+                    placeholder="Write a nice comment or go home..."
+                    rows="4"
+                    required
+                    #commentContent
+                  ></textarea>
+                  <div class="media-footer">
+                    <a
+                      (click)="addComment(commentContent.value)"
+                      class="btn btn-primary pull-right"
+                    >
+                      <i class="now-ui-icons ui-1_send"></i> Submit
+                    </a>
                   </div>
-              </div>
+                </div>
+              </div> -->
+            </div>
           </div>
+        </div>
       </div>
-      <!-- <div class="section">
+    </div>
+    <!-- <div class="section">
           <div class="container">
               <div class="col-md-12">
                   <h2 class="title text-center">Similar Stories</h2>
@@ -330,9 +416,9 @@
       </div> -->
   </div>
   <!-- <app-comments></app-comments> -->
-  <footer class="footer " data-background-color="black">
-      <div class="container">
-          <!-- <nav>
+  <footer class="footer" data-background-color="black">
+    <div class="container">
+      <!-- <nav>
               <ul>
                   <li>
                       <a href="https://www.creative-tim.com">
@@ -356,11 +442,14 @@
                   </li>
               </ul>
           </nav> -->
-          <div class="copyright">
-              &copy; {{data | date: 'yyyy'}}, Designed by
-              <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
-              <a href="https://www.creative-tim.com" target="_blank">Creative Tim and Jim Garoutte</a>.
-          </div>
+      <div class="copyright">
+        &copy; {{ data | date: "yyyy" }}, Designed by
+        <a href="https://www.invisionapp.com" target="_blank">Invision</a>.
+        Coded by
+        <a href="https://www.creative-tim.com" target="_blank"
+          >Creative Tim and Jim Garoutte</a
+        >.
       </div>
+    </div>
   </footer>
 </div>

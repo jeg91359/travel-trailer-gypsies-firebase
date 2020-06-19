@@ -6,7 +6,7 @@
 <br />
 <ngx-auth-firebaseui
   appearance="fill"
-  [providers]="['google']"
+  [providers]="['google', 'facebook']"
   (onSuccess)="printUser($event)"
   (onError)="printError()"
 ></ngx-auth-firebaseui>

@@ -1,11 +1,10 @@
 import { Component, OnInit, OnDestroy } from "@angular/core";
 import * as Rellax from "rellax";
 import { ActivatedRoute } from "@angular/router";
-import { switchMap } from "rxjs/operators";
 import { BlogpostService } from "../services/blogpost.service";
-import { UserService } from "../services/user.service";
-import { NgControlStatus } from "@angular/forms";
 import { AngularFireStorage } from "@angular/fire/storage";
+import { AngularFireAuth } from "@angular/fire/auth";
+import { NgForm } from "@angular/forms";
 
 @Component({
   selector: "app-blogpost",
@@ -25,11 +24,19 @@ export class BlogpostComponent implements OnInit, OnDestroy {
   constructor(
     private route: ActivatedRoute,
     private blogpostService: BlogpostService,
-    private userService: UserService,
-    private storage: AngularFireStorage
+    private storage: AngularFireStorage,
+    public afAuth: AngularFireAuth
   ) {}
 
   ngOnInit() {
+
+    this.afAuth.authState.subscribe((user) => {
+      if (user) {
+        console.log(user);
+        this.user = user;
+      }
+    });
+
     let storage = this.storage;
     let id = this.route.snapshot.paramMap.get("id");
     this.id = id;
@@ -68,8 +75,6 @@ export class BlogpostComponent implements OnInit, OnDestroy {
         data.forEach((doc) => {
           this.comments.push(doc.data());
 
-          //console.log(doc.data());
-
           if (this.comments[i].created_date != null) {
             this.comments[i].created_date = this.comments[
               i
@@ -87,9 +92,11 @@ export class BlogpostComponent implements OnInit, OnDestroy {
     navbar.classList.add("navbar-transparent");
   }
 
-  addComment() {
-    console.log(this.id);
-    this.blogpostService.postComment(this.id);
+  onAddComment(form: NgForm) {
+    if (form.invalid) {
+      return;
+    }
+    this.blogpostService.postComment(this.id, this.user.displayName, form.value.content, this.user.photoURL);
   }
 
   ngOnDestroy() {

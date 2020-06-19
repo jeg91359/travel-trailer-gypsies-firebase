@@ -12,11 +12,8 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFireStorageModule } from "@angular/fire/storage";
 import { environment } from "../environments/environment";
 import { AppComponent } from "./app.component";
-import { PresentationComponent } from "./presentation/presentation.component";
 import { NavbarComponent } from "./shared/navbar/navbar.component";
-
 import { PresentationModule } from "./presentation/presentation.module";
-
 import { LandingComponent } from "./landing/landing.component";
 import { BlogpostComponent } from "./blogpost/blogpost.component";
 import { BlogpostsComponent } from "./blogposts/blogposts.component";
@@ -31,7 +28,7 @@ import { LoginComponent } from './login/login.component';
     LandingComponent,
     BlogpostComponent,
     BlogpostsComponent,
-    LoginComponent,
+    LoginComponent
   ],
   imports: [
     BrowserAnimationsModule,

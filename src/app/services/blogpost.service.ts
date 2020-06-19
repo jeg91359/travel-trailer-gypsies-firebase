@@ -19,11 +19,12 @@ export class BlogpostService {
       .get();
   }
 
-  postComment(id: string) {
-    console.log("Made it here!");
+  postComment(id: string, displayName: string, content: string, photoURL: string) {
+    console.log("Made it to the service!");
     this.firestore.collection("blogposts/" + id + "/comments").add({
-      creator_name: "Eloisa Garoutte",
-      content: "I love this guy!",
+      creator_name: displayName,
+      content: content,
+      creator_image: photoURL,
       created_date: new Date(),
     });
   }
