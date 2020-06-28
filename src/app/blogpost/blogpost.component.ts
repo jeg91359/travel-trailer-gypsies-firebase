@@ -99,6 +99,14 @@ export class BlogpostComponent implements OnInit, OnDestroy {
     this.blogpostService.postComment(this.id, this.user.displayName, form.value.content, this.user.photoURL);
   }
 
+  onEditComment(form: NgForm) {
+    if (form.invalid) {
+      return;
+    }
+    console.log(this.id, form.value.content);
+    this.blogpostService.editComment(this.id, form.value.content);
+  }
+
   ngOnDestroy() {
     var body = document.getElementsByTagName("body")[0];
     body.classList.remove("blog-post");

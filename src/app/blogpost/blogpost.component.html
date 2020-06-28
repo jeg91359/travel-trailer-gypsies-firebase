@@ -207,13 +207,45 @@
                   <p>{{ comment?.content }}</p>
                   <p></p>
                   <!-- <div class="media-footer">
-                                      <a href="#pablo" class="btn btn-primary btn-neutral pull-right" placement="top" ngbTooltip="Reply to Comment">
-                                          <i class="now-ui-icons ui-1_send"></i> Reply
-                                      </a>
-                                      <a href="#pablo" class="btn btn-danger btn-neutral pull-right">
-                                          <i class="now-ui-icons ui-2_favourite-28"></i> 243
-                                      </a>
-                                  </div> -->
+                    <a
+                      href="#pablo"
+                      class="btn btn-primary btn-neutral pull-right"
+                      placement="top"
+                      ngbTooltip="Edit Comment"
+                    >
+                      <i class="now-ui-icons ui-1_send"></i> 
+                      Edit
+                    </a>
+                    <a
+                      href="#pablo"
+                      class="btn btn-danger btn-neutral pull-right"
+                    >
+                      <i class="now-ui-icons ui-2_favourite-28"></i> 243
+                    </a>
+                  </div> -->
+
+                  <div class="media-footer">
+                    <a
+                      *ngIf="afAuth.user | async as user"
+                      class="btn btn-danger btn-neutral pull-right"
+                      (click)="onDelete(comment.id)"
+                      placement="top"
+                      ngbTooltip="Delete"
+                    >
+                      <!-- <i class="now-ui-icons ui-2_favourite-28"></i> 25 -->
+                      <i class="fas fa-trash-alt"></i> Delete
+                    </a>
+                    <a
+                      *ngIf="afAuth.user | async as user"
+                      class="btn btn-primary btn-neutral pull-right"
+                      (click)="onEdit(comment.id)"
+                      placement="top"
+                      ngbTooltip="Edit"
+                    >
+                      <!-- <i class="now-ui-icons ui-1_send"></i> Edit -->
+                      <i class="fas fa-edit"></i> Edit
+                    </a>
+                  </div>
                 </div>
               </div>
               <!-- <div class="media">
@@ -272,10 +304,10 @@
                   <a class="pull-left author" href="#pablo">
                     <div class="avatar">
                       <img
-                      class="media-object img-raised"
-                      src="{{ user?.photoURL }}"
-                      onerror="this.src='assets/img/placeholder.jpg';"
-                    />
+                        class="media-object img-raised"
+                        src="{{ user?.photoURL }}"
+                        onerror="this.src='assets/img/placeholder.jpg';"
+                      />
                     </div>
                   </a>
                   <div class="media-body">
@@ -313,7 +345,7 @@
                               <i class="now-ui-icons ui-1_send"></i> Reply
                           </a> -->
                       <button class="btn btn-primary pull-right" type="submit">
-                        Save Comment
+                        Post
                       </button>
                     </div>
                   </div>

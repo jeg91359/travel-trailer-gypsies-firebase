@@ -19,7 +19,12 @@ export class BlogpostService {
       .get();
   }
 
-  postComment(id: string, displayName: string, content: string, photoURL: string) {
+  postComment(
+    id: string,
+    displayName: string,
+    content: string,
+    photoURL: string
+  ) {
     console.log("Made it to the service!");
     this.firestore.collection("blogposts/" + id + "/comments").add({
       creator_name: displayName,
@@ -27,5 +32,22 @@ export class BlogpostService {
       creator_image: photoURL,
       created_date: new Date(),
     });
+  }
+
+  editComment(
+    id: string,
+    content: string
+    ) {
+    this.firestore
+      .collection("comments")
+      .doc(id)
+      .update({
+        content: content,
+      })
+      .then(() => {
+        // this.snackBar.open("Job was updated successfully", "Ok", {
+        //   duration: 2000,
+        // });
+      });
   }
 }
