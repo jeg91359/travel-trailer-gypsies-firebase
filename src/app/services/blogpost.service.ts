@@ -25,7 +25,7 @@ export class BlogpostService {
     content: string,
     photoURL: string
   ) {
-    console.log("Made it to the service!");
+    //console.log("Made it to the service!");
     this.firestore.collection("blogposts/" + id + "/comments").add({
       creator_name: displayName,
       content: content,
