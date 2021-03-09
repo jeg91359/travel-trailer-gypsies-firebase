@@ -8,6 +8,10 @@ export class BlogpostsService {
   constructor(private firestore: AngularFirestore) {}
 
   getBlogPosts() {
-    return this.firestore.collection("blogposts").snapshotChanges();
+    let blogpostsCollectionRef = this.firestore.collection("blogposts", (ref) =>
+      ref.orderBy("cron_order")
+    );
+    //return this.firestore.collection("blogposts").snapshotChanges();
+    return blogpostsCollectionRef.snapshotChanges();
   }
 }

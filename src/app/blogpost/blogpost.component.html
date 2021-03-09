@@ -14,26 +14,6 @@
     </div>
   </div>
   <div class="section">
-    <!-- <div class="container">
-          <div class="row">
-              <div class="col-md-12">
-                  <div class="button-container">
-                      <a href="#pablo" class="btn btn-primary btn-round btn-lg">
-                          <i class="now-ui-icons text_align-left"></i> Read Article
-                      </a>
-                      <a href="#pablo" class="btn btn-icon btn-lg btn-twitter btn-round">
-                          <i class="fa fa-twitter"></i>
-                      </a>
-                      <a href="#pablo" class="btn btn-icon btn-lg btn-facebook btn-round">
-                          <i class="fa fa-facebook-square"></i>
-                      </a>
-                      <a href="#pablo" class="btn btn-icon btn-lg btn-google btn-round">
-                          <i class="fa fa-google"></i>
-                      </a>
-                  </div>
-              </div>
-          </div>
-      </div> -->
     <div class="section">
       <div class="container">
         <div class="row">
@@ -131,55 +111,6 @@
         </div>
       </div>
     </div>
-    <!-- <div class="section section-blog-info">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-8 ml-auto mr-auto">
-                      <div class="row">
-                          <div class="col-md-6">
-                              <div class="blog-tags">
-                                  Tags:
-                                  <span class="label label-primary">Photography</span>
-                                  <span class="label label-primary">Stories</span>
-                                  <span class="label label-primary">Castle</span>
-                              </div>
-                          </div>
-                          <div class="col-md-6">
-                              <a href="#pablo" class="btn btn-google btn-round pull-right">
-                                  <i class="fa fa-google"></i> 232
-                              </a>
-                              <a href="#pablo" class="btn btn-twitter btn-round pull-right">
-                                  <i class="fa fa-twitter"></i> 910
-                              </a>
-                              <a href="#pablo" class="btn btn-facebook btn-round pull-right">
-                                  <i class="fa fa-facebook-square"></i> 872
-                              </a>
-                          </div>
-                      </div>
-                      <hr />
-                      <div class="card card-profile card-plain">
-                          <div class="row">
-                              <div class="col-md-2">
-                                  <div class="card-avatar">
-                                      <a href="#pablo">
-                                          <img class="img img-raised" src="assets/img/mike.jpg">
-                                      </a>
-                                      <div class="ripple-container"></div>
-                                  </div>
-                              </div>
-                              <div class="col-md-8">
-                                  <h4 class="card-title">Alec Thompson</h4>
-                                  <p class="description">I've been trying to figure out the bed design for the master bedroom at our Hidden Hills compound...I like good music from Youtube.</p>
-                              </div>
-                              <div class="col-md-2">
-                                  <button type="button" class="btn btn-default pull-right btn-round">Follow</button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div> -->
     <div class="section section-comments">
       <div class="container">
         <div class="row">
@@ -206,90 +137,80 @@
                   </h5>
                   <p>{{ comment?.content }}</p>
                   <p></p>
-                  <!-- <div class="media-footer">
-                    <a
-                      href="#pablo"
-                      class="btn btn-primary btn-neutral pull-right"
-                      placement="top"
-                      ngbTooltip="Edit Comment"
-                    >
-                      <i class="now-ui-icons ui-1_send"></i> 
-                      Edit
-                    </a>
-                    <a
-                      href="#pablo"
-                      class="btn btn-danger btn-neutral pull-right"
-                    >
-                      <i class="now-ui-icons ui-2_favourite-28"></i> 243
-                    </a>
-                  </div> -->
-
-                  <div class="media-footer">
-                    <a
-                      *ngIf="afAuth.user | async as user"
-                      class="btn btn-danger btn-neutral pull-right"
-                      (click)="onDelete(comment.id)"
-                      placement="top"
-                      ngbTooltip="Delete"
-                    >
-                      <i class="fa fa-trash"></i> Delete
-                    </a>
-                    <a
-                      *ngIf="afAuth.user | async as user"
-                      class="btn btn-primary btn-neutral pull-right"
-                      (click)="onEdit(comment.id)"
-                      placement="top"
-                      ngbTooltip="Edit"
-                    >
-                      <i class="fa fa-edit"></i> Edit
-                    </a>
+                  <div class="media-footer" *ngIf="afAuth.user | async as user">
+                    <div *ngIf="comment?.creator_name == user.displayName">
+                      <a
+                        class="btn btn-danger btn-neutral pull-right"
+                        (click)="onDelete(comment)"
+                        placement="top"
+                        ngbTooltip="Delete"
+                      >
+                        <i class="fa fa-trash"></i> Delete
+                      </a>
+                      <!-- <input
+                        [(ngModel)]="comment.content"
+                        placeholder="content"
+                      /> -->
+                      <a
+                        class="btn btn-primary btn-neutral pull-right"
+                        (click)="onEdit()"
+                        placement="top"
+                        ngbTooltip="Edit"
+                      >
+                        <i class="fa fa-edit"></i> Edit
+                      </a>
+                      <form
+                        *ngIf="isEditing"
+                        class="form was-validated"
+                        (submit)="onEditComment(commentForm)"
+                        #commentForm="ngForm"
+                      >
+                        <h3 class="title text-center">Edit your comment</h3>
+                        <div class="media media-post">
+                          <a class="pull-left author" href="#pablo">
+                            <div class="avatar">
+                              <img
+                                class="media-object img-raised"
+                                src="{{ user?.photoURL }}"
+                                onerror="this.src='assets/img/placeholder.jpg';"
+                              />
+                            </div>
+                          </a>
+                          <div class="media-body">
+                            <h5 class="media-heading">
+                              <textarea
+                                class="form-control"
+                                ngModel
+                                placeholder=""
+                                rows="4"
+                                required
+                                name="content"
+                                #contentInput="ngModel"
+                              ></textarea>
+                            </h5>
+                            <a class="media-footer">
+                              <button
+                                (click)="onCancel()"
+                                class="btn btn-secondary"
+                                onclick="onCancel()"
+                              >
+                                Cancel
+                              </button>
+                              <button
+                                (click)="onEditSave()"
+                                class="btn btn-primary pull-right"
+                                onclick="onEditSave()"
+                              >
+                                Save
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
-              <!-- <div class="media">
-                              <a class="pull-left" href="#pablo">
-                                  <div class="avatar">
-                                      <img class="media-object img-raised" alt="Tim Picture" src="assets/img/michael.jpg">
-                                  </div>
-                              </a>
-                              <div class="media-body">
-                                  <h5 class="media-heading">John Camber
-                                      <small class="text-muted">&middot; Yesterday</small>
-                                  </h5>
-                                  <p>Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.</p>
-                                  <p> Don't forget, You're Awesome!</p>
-                                  <div class="media-footer">
-                                      <a href="#pablo" class="btn btn-primary btn-neutral pull-right" placement="top" ngbTooltip="Reply to Comment">
-                                          <i class="now-ui-icons ui-1_send"></i> Reply
-                                      </a>
-                                      <a href="#pablo" class="btn btn-danger btn-neutral pull-right">
-                                          <i class="now-ui-icons ui-2_favourite-28"></i> 25
-                                      </a>
-                                  </div>
-                                  <div class="media">
-                                      <a class="pull-left" href="#pablo">
-                                          <div class="avatar">
-                                              <img class="media-object img-raised" alt="64x64" src="assets/img/julie.jpg">
-                                          </div>
-                                      </a>
-                                      <div class="media-body">
-                                          <h5 class="media-heading">Tina Andrew
-                                              <small class="text-muted">· 2 Days Ago</small>
-                                          </h5>
-                                          <p>Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.</p>
-                                          <p> Don't forget, You're Awesome!</p>
-                                          <div class="media-footer">
-                                              <a href="#pablo" class="btn btn-primary btn-neutral pull-right" placement="top" ngbTooltip="Reply to Comment">
-                                                  <i class="now-ui-icons ui-1_send"></i> Reply
-                                              </a>
-                                              <a href="#pablo" class="btn btn-danger btn-neutral pull-right">
-                                                  <i class="now-ui-icons ui-2_favourite-28"></i> 2
-                                              </a>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div> -->
             </div>
             <div *ngIf="afAuth.user | async as user">
               <form
@@ -309,20 +230,6 @@
                     </div>
                   </a>
                   <div class="media-body">
-                    <!-- <h5 class="media-heading">
-                  <textarea
-                    class="form-control"
-                    placeholder="Comment Title..."
-                    ngModel
-                    required
-                    name="title"
-                    #titleInput="ngModel"
-                  ></textarea> -->
-                    <!-- <div class="valid-feedback">Valid.</div>-->
-                    <!-- <div class="invalid-feedback" *ngIf="titleInput.invalid">
-                    Please enter a valid title.
-                  </div>  -->
-                    <!-- </h5> -->
                     <h5 class="media-heading">
                       <textarea
                         class="form-control"
@@ -333,15 +240,8 @@
                         name="content"
                         #contentInput="ngModel"
                       ></textarea>
-                      <!-- <div class="valid-feedback">Valid.</div>-->
-                      <!-- <div class="invalid-feedback" *ngIf="contentInput.invalid">
-                    Please enter valid content.
-                  </div>  -->
                     </h5>
                     <div class="media-footer">
-                      <!-- <a href="#pablo" class="btn btn-primary pull-right">
-                              <i class="now-ui-icons ui-1_send"></i> Reply
-                          </a> -->
                       <button class="btn btn-primary pull-right" type="submit">
                         Post
                       </button>
@@ -349,137 +249,23 @@
                   </div>
                 </div>
               </form>
-              <!-- <h3 class="title text-center">Post your comment</h3>
-              <div class="media media-post"> -->
-              <!-- <a class="pull-left author" href="#pablo">
-                              <div class="avatar">
-                                  <img class="media-object img-raised" alt="64x64" src="assets/img/olivia.jpg">
-                              </div>
-                          </a> -->
-              <!-- <div class="media-body">
-                  <textarea
-                    class="form-control"
-                    placeholder="Write a nice comment or go home..."
-                    rows="4"
-                    required
-                    #commentContent
-                  ></textarea>
-                  <div class="media-footer">
-                    <a
-                      (click)="addComment(commentContent.value)"
-                      class="btn btn-primary pull-right"
-                    >
-                      <i class="now-ui-icons ui-1_send"></i> Submit
-                    </a>
-                  </div>
-                </div>
-              </div> -->
             </div>
+            <footer class="footer" data-background-color="black">
+              <div class="container">
+                <div class="copyright">
+                  &copy; {{ data | date: "yyyy" }}, Designed by
+                  <a href="https://www.invisionapp.com" target="_blank"
+                    >Invision</a
+                  >. Coded by
+                  <a href="https://www.creative-tim.com" target="_blank"
+                    >Creative Tim and Jim Garoutte</a
+                  >
+                </div>
+              </div>
+            </footer>
           </div>
         </div>
       </div>
     </div>
-    <!-- <div class="section">
-          <div class="container">
-              <div class="col-md-12">
-                  <h2 class="title text-center">Similar Stories</h2>
-                  <br />
-                  <div class="blogs-1" id="blogs-1">
-                      <div class="row">
-                          <div class="col-md-10 ml-auto mr-auto">
-                              <div class="card card-plain card-blog">
-                                  <div class="row">
-                                      <div class="col-md-5">
-                                          <div class="card-image">
-                                              <img class="img img-raised rounded" src="assets/img/examples/card-blog4.jpg">
-                                          </div>
-                                      </div>
-                                      <div class="col-md-7">
-                                          <h6 class="category text-info">Enterprise</h6>
-                                          <h3 class="card-title">
-                                              <a href="#pablo">Warner Music Group buys concert discovery service Songkick</a>
-                                          </h3>
-                                          <p class="card-description">
-                                              Warner Music Group announced today it’s acquiring the selected assets of the music platform Songkick, including its app for finding concerts and the company’s trademark.
-                                          </p>
-                                          <p class="author">
-                                              by
-                                              <a href="#pablo">
-                                                  <b>Sarah Perez</b>
-                                              </a>, 2 days ago
-                                          </p>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="card card-plain card-blog">
-                                  <div class="row">
-                                      <div class="col-md-7">
-                                          <h6 class="category text-danger">
-                                              <i class="now-ui-icons now-ui-icons media-2_sound-wave"></i> Startup
-                                          </h6>
-                                          <h3 class="card-title">
-                                              <a href="#pablo">Insticator raises $5.2M to help publishers</a>
-                                          </h3>
-                                          <p class="card-description">
-                                              Insticator is announcing that it has raised $5.2 million in Series A funding. The startup allows online publishers to add quizzes, polls and other interactive elements...
-                                          </p>
-                                          <p class="author">
-                                              by
-                                              <a href="#pablo">
-                                                  <b>Anthony Ha</b>
-                                              </a>, 5 days ago
-                                          </p>
-                                      </div>
-                                      <div class="col-md-5">
-                                          <div class="card-image">
-                                              <img class="img img-raised rounded
-                                      " src="assets/img/examples/card-blog6.jpg">
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div> -->
   </div>
-  <!-- <app-comments></app-comments> -->
-  <footer class="footer" data-background-color="black">
-    <div class="container">
-      <!-- <nav>
-              <ul>
-                  <li>
-                      <a href="https://www.creative-tim.com">
-                          Creative Tim
-                      </a>
-                  </li>
-                  <li>
-                      <a href="https://www.creative-tim.com/about-us">
-                          About Us
-                      </a>
-                  </li>
-                  <li>
-                      <a href="http://blog.creative-tim.com">
-                          Blog
-                      </a>
-                  </li>
-                  <li>
-                      <a href="https://www.creative-tim.com/license">
-                          License
-                      </a>
-                  </li>
-              </ul>
-          </nav> -->
-      <div class="copyright">
-        &copy; {{ data | date: "yyyy" }}, Designed by
-        <a href="https://www.invisionapp.com" target="_blank">Invision</a>.
-        Coded by
-        <a href="https://www.creative-tim.com" target="_blank"
-          >Creative Tim and Jim Garoutte</a
-        >.
-      </div>
-    </div>
-  </footer>
 </div>

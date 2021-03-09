@@ -8,7 +8,7 @@ import { ComponentsModule } from "./components/components.module";
 import { ExamplesModule } from "./examples/examples.module";
 import { AngularFireModule } from "@angular/fire";
 import { AngularFirestoreModule } from "@angular/fire/firestore";
-import { AngularFireAuthModule } from '@angular/fire/auth';
+import { AngularFireAuthModule } from "@angular/fire/auth";
 import { AngularFireStorageModule } from "@angular/fire/storage";
 import { environment } from "../environments/environment";
 import { AppComponent } from "./app.component";
@@ -19,7 +19,7 @@ import { BlogpostComponent } from "./blogpost/blogpost.component";
 import { BlogpostsComponent } from "./blogposts/blogposts.component";
 import { NgxAuthFirebaseUIModule } from "ngx-auth-firebaseui";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from "./login/login.component";
 
 @NgModule({
   declarations: [
@@ -28,7 +28,7 @@ import { LoginComponent } from './login/login.component';
     LandingComponent,
     BlogpostComponent,
     BlogpostsComponent,
-    LoginComponent
+    LoginComponent,
   ],
   imports: [
     BrowserAnimationsModule,

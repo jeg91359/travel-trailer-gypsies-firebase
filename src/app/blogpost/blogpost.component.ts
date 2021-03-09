@@ -20,16 +20,18 @@ export class BlogpostComponent implements OnInit, OnDestroy {
   user;
   id;
   i;
+  public isEditing: boolean;
 
   constructor(
     private route: ActivatedRoute,
     private blogpostService: BlogpostService,
     private storage: AngularFireStorage,
     public afAuth: AngularFireAuth
-  ) {}
+  ) {
+    this.isEditing = false;
+  }
 
   ngOnInit() {
-
     this.afAuth.authState.subscribe((user) => {
       if (user) {
         console.log(user);
@@ -96,7 +98,20 @@ export class BlogpostComponent implements OnInit, OnDestroy {
     if (form.invalid) {
       return;
     }
-    this.blogpostService.postComment(this.id, this.user.displayName, form.value.content, this.user.photoURL);
+    this.blogpostService.postComment(
+      this.id,
+      this.user.displayName,
+      form.value.content,
+      this.user.photoURL
+    );
+  }
+
+  onEdit() {
+    this.isEditing = true;
+  }
+
+  onCancel() {
+    this.isEditing = false;
   }
 
   onEditComment(form: NgForm) {

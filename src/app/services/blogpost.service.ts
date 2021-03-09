@@ -25,7 +25,7 @@ export class BlogpostService {
     content: string,
     photoURL: string
   ) {
-    //console.log("Made it to the service!");
+    //console.log("Made it to the post service!");
     this.firestore.collection("blogposts/" + id + "/comments").add({
       creator_name: displayName,
       content: content,
@@ -34,10 +34,8 @@ export class BlogpostService {
     });
   }
 
-  editComment(
-    id: string,
-    content: string
-    ) {
+  editComment(id: string, content: string) {
+    console.log("Made it to the edit service!");
     this.firestore
       .collection("comments")
       .doc(id)
